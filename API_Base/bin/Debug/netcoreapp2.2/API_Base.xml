@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>API_Base</name>
+    </assembly>
+    <members>
+        <member name="M:API_Base.Controllers.AuthenticationController.RequestToken(API_Base.Core.Models.TokenRequest)">
+             <summary>
+             Method for getting the token to authorize request
+             </summary>
+            <param>@request username and password for an authorized user</param>
+             <returns>The list of Employees.</returns>
+        </member>
+    </members>
+</doc>
