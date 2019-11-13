@@ -1,12 +1,10 @@
-using System;
-using System.IO;
-using System.Reflection;
 using System.Text;
 using API_Base.Core.Models;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.IdentityModel.Tokens;
-using Swashbuckle.AspNetCore.Swagger;
+using NSwag;
+using NSwag.Generation.Processors.Security;
 
 namespace API_Base.Extensions
 {
@@ -28,40 +26,29 @@ namespace API_Base.Extensions
                     IssuerSigningKey =  new SymmetricSecurityKey(Encoding.ASCII.GetBytes(token.Secret)),
                     ValidIssuer = token.Issuer,
                     ValidAudience = token.Audience,
-                    ValidateIssuer = false,
-                    ValidateAudience = false
+                    ValidateIssuer = true,
+                    ValidateAudience = true
                 };
             });
       
-            var ValidationParameters = new TokenValidationParameters
-            {
-                ValidateIssuerSigningKey = true,
-                IssuerSigningKey = new SymmetricSecurityKey(secret),
-                ValidateIssuer = false,
-                ValidateAudience = false
-            };
             return services;
         }
     
-        public static void AddSwaggerService<T>(this IServiceCollection services){
-            services.AddSwaggerGen(c =>
-            {
-                c.SwaggerDoc("v1", new Info
-                {
-                    Title = "API Base",
-                    Version = "v1",
-                    Description = "API to perform CRUD operations",
-                    //TermsOfService = "https://example.com/terms",
-                    Contact = new Contact
+        public static void AddOpenAPIService<T>(this IServiceCollection services){
+            services.AddOpenApiDocument( c => {
+                c.Title = "API Base Project .Net Core 3.1";
+                c.Version = "1.0";
+                c.AddSecurity("JWT", System.Linq.Enumerable.Empty<string>(), 
+                    new OpenApiSecurityScheme
                     {
-                        Name = "Andres Mauricio Clavijo Mejia",
-                        Email = "andrclam@outlook.com"
+                        Type = OpenApiSecuritySchemeType.ApiKey,
+                        Name = "Authorization",
+                        In = OpenApiSecurityApiKeyLocation.Header,
+                        Description = "Copia y pega el Token en el campo 'Value:' así: Bearer {Token JWT}."
                     }
-                });
-                // Set the comments path for the Swagger JSON and UI.
-                var xmlFile = $"{Assembly.GetExecutingAssembly().GetName().Name}.xml";
-                var xmlPath = Path.Combine(AppContext.BaseDirectory, xmlFile);
-                c.IncludeXmlComments(xmlPath);
+                );
+                c.OperationProcessors.Add(
+                    new AspNetCoreOperationSecurityScopeProcessor("JWT"));
             });
         }
     }

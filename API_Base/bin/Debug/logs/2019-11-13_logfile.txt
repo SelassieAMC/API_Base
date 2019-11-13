@@ -1,0 +1,587 @@
+2019-11-13 11:57:38.4581 | Development | FATAL |  |  |  |  | Application startup exception
+2019-11-13 11:57:41.6605 | Development | FATAL |  |  |  |  | Application startup exception
+2019-11-13 12:02:15.8508 | Development | INFO |  |  |  |  | User profile is available. Using 'C:\Users\luhero04\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2019-11-13 12:02:55.6787 | Development | INFO |  |  |  |  | User profile is available. Using 'C:\Users\luhero04\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2019-11-13 12:03:14.4864 | Development | INFO | ::1 | 0 | GET |  | Request starting HTTP/1.1 GET http://localhost:5000/  
+2019-11-13 12:03:14.5405 | Development | INFO | ::1 | 0 | GET |  | Request finished in 54.3958ms 307 
+2019-11-13 12:03:17.7672 | Development | INFO | ::1 | 0 | GET |  | Request starting HTTP/2 GET https://localhost:5001/  
+2019-11-13 12:03:17.7759 | Development | INFO | ::1 | 0 | GET |  | Request finished in 8.704ms 404 
+2019-11-13 12:03:21.2552 | Development | INFO | ::1 | 0 | GET |  | Request starting HTTP/2 GET https://localhost:5001/swagger  
+2019-11-13 12:03:21.2597 | Development | INFO | ::1 | 0 | GET |  | Request finished in 4.5881ms 302 
+2019-11-13 12:03:21.2597 | Development | INFO | ::1 | 0 | GET |  | Request starting HTTP/2 GET https://localhost:5001/swagger/index.html  
+2019-11-13 12:03:21.3468 | Development | INFO | ::1 | 0 | GET |  | Request finished in 85.3833ms 200 text/html; charset=utf-8
+2019-11-13 12:03:21.3611 | Development | INFO | ::1 | 0 | GET |  | Request starting HTTP/2 GET https://localhost:5001/swagger/swagger-ui.css  
+2019-11-13 12:03:21.3611 | Development | INFO | ::1 | 0 | GET |  | Request starting HTTP/2 GET https://localhost:5001/swagger/swagger-ui-standalone-preset.js  
+2019-11-13 12:03:21.3611 | Development | INFO | ::1 | 0 | GET |  | Request starting HTTP/2 GET https://localhost:5001/swagger/swagger-ui-bundle.js  
+2019-11-13 12:03:21.3819 | Development | INFO | ::1 | 0 | GET |  | Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2019-11-13 12:03:21.3819 | Development | INFO | ::1 | 0 | GET |  | Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2019-11-13 12:03:21.3819 | Development | INFO | ::1 | 0 | GET |  | Request finished in 24.0696ms 200 application/javascript
+2019-11-13 12:03:21.3819 | Development | INFO | ::1 | 0 | GET |  | Request finished in 24.3955ms 200 text/css
+2019-11-13 12:03:21.3819 | Development | INFO | ::1 | 0 | GET |  | Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2019-11-13 12:03:21.3819 | Development | INFO | ::1 | 0 | GET |  | Request finished in 28.6525ms 200 application/javascript
+2019-11-13 12:03:21.5145 | Development | INFO | ::1 | 0 | GET |  | Request starting HTTP/2 GET https://localhost:5001/swagger/v1/swagger.json  
+2019-11-13 12:03:21.9308 | Development | INFO | ::1 | 0 | GET |  | Request finished in 416.3587ms 200 application/json; charset=utf-8
+2019-11-13 12:03:30.7867 | Development | INFO | ::1 | 0 | POST |  | Request starting HTTP/2 POST https://localhost:5001/api/Authentication/test_Request application/json 41
+2019-11-13 12:03:30.7931 | Development | INFO | ::1 | 0 | POST | RequestToken | CORS policy execution successful.
+2019-11-13 12:03:30.7931 | Development | INFO | ::1 | 0 | POST | RequestToken | Executing endpoint 'API_Base.Controllers.AuthenticationController.RequestToken (API_Base)'
+2019-11-13 12:03:30.8196 | Development | INFO | ::1 | 0 | POST | RequestToken | Route matched with {action = "RequestToken", controller = "Authentication"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult RequestToken(API_Base.Core.Models.TokenRequest) on controller API_Base.Controllers.AuthenticationController (API_Base).
+2019-11-13 12:03:30.8516 | Development | INFO | ::1 | 0 | POST | RequestToken | ModelState valid
+2019-11-13 12:03:30.8680 | Development | DEBUG | ::1 | 0 | POST | RequestToken | token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9uYW1lIjoic3RyaW5nIiwiZXhwIjoxNTczNjY1MjEwLCJpc3MiOiJhdXRvZmluYW5jaWVyYS5jb20uY28iLCJhdWQiOiJBdXRvQXVkaWVuY2UifQ.FQyChA6ClA_Bjn7eem_LBEkwQUoyJYD1SendsRpPrc4
+2019-11-13 12:03:30.8680 | Development | INFO | ::1 | 0 | POST | RequestToken | Executing ObjectResult, writing value of type 'System.String'.
+2019-11-13 12:03:30.8680 | Development | INFO | ::1 | 0 | POST | RequestToken | Executed action API_Base.Controllers.AuthenticationController.RequestToken (API_Base) in 47.9629ms
+2019-11-13 12:03:30.8680 | Development | INFO | ::1 | 0 | POST | RequestToken | Executed endpoint 'API_Base.Controllers.AuthenticationController.RequestToken (API_Base)'
+2019-11-13 12:03:30.8680 | Development | INFO | ::1 | 0 | POST | RequestToken | Request finished in 92.6994ms 200 text/plain; charset=utf-8
+2019-11-13 12:20:18.6080 | Development | INFO |  |  |  |  | User profile is available. Using 'C:\Users\luhero04\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2019-11-13 12:20:22.7198 | Development | INFO | ::1 | 0 | GET |  | Request starting HTTP/2 GET https://localhost:5001/swagger/index.html  
+2019-11-13 12:20:22.8305 | Development | INFO | ::1 | 0 | GET |  | Request finished in 111.2605ms 200 text/html; charset=utf-8
+2019-11-13 12:20:22.8436 | Development | INFO | ::1 | 0 | GET |  | Request starting HTTP/2 GET https://localhost:5001/swagger/swagger-ui.css  
+2019-11-13 12:20:22.8436 | Development | INFO | ::1 | 0 | GET |  | Request starting HTTP/2 GET https://localhost:5001/swagger/swagger-ui-bundle.js  
+2019-11-13 12:20:22.8436 | Development | INFO | ::1 | 0 | GET |  | Request starting HTTP/2 GET https://localhost:5001/swagger/swagger-ui-standalone-preset.js  
+2019-11-13 12:20:22.8626 | Development | INFO | ::1 | 0 | GET |  | Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2019-11-13 12:20:22.8626 | Development | INFO | ::1 | 0 | GET |  | Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2019-11-13 12:20:22.8626 | Development | INFO | ::1 | 0 | GET |  | Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2019-11-13 12:20:22.8626 | Development | INFO | ::1 | 0 | GET |  | Request finished in 22.1541ms 200 text/css
+2019-11-13 12:20:22.8626 | Development | INFO | ::1 | 0 | GET |  | Request finished in 22.133ms 200 application/javascript
+2019-11-13 12:20:22.8626 | Development | INFO | ::1 | 0 | GET |  | Request finished in 22.1803ms 200 application/javascript
+2019-11-13 12:20:22.9910 | Development | INFO | ::1 | 0 | GET |  | Request starting HTTP/2 GET https://localhost:5001/swagger/v1/swagger.json  
+2019-11-13 12:20:23.3528 | Development | INFO | ::1 | 0 | GET |  | Request finished in 361.9273ms 200 application/json; charset=utf-8
+2019-11-13 12:20:24.2990 | Development | INFO | ::1 | 0 | GET |  | Request starting HTTP/2 GET https://localhost:5001/swagger/index.html  
+2019-11-13 12:20:24.2990 | Development | INFO | ::1 | 0 | GET |  | Request finished in 3.0656ms 200 text/html; charset=utf-8
+2019-11-13 12:20:24.3687 | Development | INFO | ::1 | 0 | GET |  | Request starting HTTP/2 GET https://localhost:5001/swagger/v1/swagger.json  
+2019-11-13 12:20:24.3687 | Development | INFO | ::1 | 0 | GET |  | Request finished in 2.7067ms 200 application/json; charset=utf-8
+2019-11-13 12:20:24.3687 | Development | INFO | ::1 | 0 | GET |  | Request starting HTTP/2 GET https://localhost:5001/swagger/favicon-32x32.png  
+2019-11-13 12:20:24.3687 | Development | INFO | ::1 | 0 | GET |  | Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+2019-11-13 12:20:24.3687 | Development | INFO | ::1 | 0 | GET |  | Request finished in 3.1004ms 200 image/png
+2019-11-13 12:20:27.0098 | Development | INFO | ::1 | 0 | GET |  | Request starting HTTP/2 GET https://localhost:5001/swagger/index.html  
+2019-11-13 12:20:27.0098 | Development | INFO | ::1 | 0 | GET |  | Request finished in 2.2109ms 200 text/html; charset=utf-8
+2019-11-13 12:20:27.0596 | Development | INFO | ::1 | 0 | GET |  | Request starting HTTP/2 GET https://localhost:5001/swagger/v1/swagger.json  
+2019-11-13 12:20:27.0596 | Development | INFO | ::1 | 0 | GET |  | Request finished in 1.269ms 200 application/json; charset=utf-8
+2019-11-13 12:20:27.0596 | Development | INFO | ::1 | 0 | GET |  | Request starting HTTP/2 GET https://localhost:5001/swagger/favicon-32x32.png  
+2019-11-13 12:20:27.0596 | Development | INFO | ::1 | 0 | GET |  | Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+2019-11-13 12:20:27.0596 | Development | INFO | ::1 | 0 | GET |  | Request finished in 2.8057ms 200 image/png
+2019-11-13 12:21:20.3673 | Development | INFO |  |  |  |  | User profile is available. Using 'C:\Users\luhero04\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2019-11-13 12:26:29.6377 | Development | INFO |  |  |  |  | User profile is available. Using 'C:\Users\luhero04\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2019-11-13 12:26:31.1414 | Development | INFO | ::1 | 0 | GET |  | Request starting HTTP/2 GET https://localhost:5001/swagger/index.html  
+2019-11-13 12:26:31.2576 | Development | INFO | ::1 | 0 | GET |  | Request finished in 116.3987ms 200 text/html; charset=utf-8
+2019-11-13 12:26:31.4079 | Development | INFO | ::1 | 0 | GET |  | Request starting HTTP/2 GET https://localhost:5001/swagger/v1/swagger.json  
+2019-11-13 12:26:31.4079 | Development | INFO | ::1 | 0 | GET |  | Request starting HTTP/2 GET https://localhost:5001/swagger/favicon-32x32.png  
+2019-11-13 12:26:31.4181 | Development | INFO | ::1 | 0 | GET |  | Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+2019-11-13 12:26:31.4181 | Development | INFO | ::1 | 0 | GET |  | Request finished in 9.595ms 200 image/png
+2019-11-13 12:26:31.7789 | Development | INFO | ::1 | 0 | GET |  | Request finished in 371.1114ms 200 application/json; charset=utf-8
+2019-11-13 12:26:36.9463 | Development | INFO | ::1 | 0 | POST |  | Request starting HTTP/2 POST https://localhost:5001/api/Authentication/test_Request application/json 41
+2019-11-13 12:26:36.9463 | Development | INFO | ::1 | 0 | POST | RequestToken | CORS policy execution successful.
+2019-11-13 12:26:36.9463 | Development | INFO | ::1 | 0 | POST | RequestToken | Executing endpoint 'API_Base.Controllers.AuthenticationController.RequestToken (API_Base)'
+2019-11-13 12:26:36.9761 | Development | INFO | ::1 | 0 | POST | RequestToken | Route matched with {action = "RequestToken", controller = "Authentication"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult RequestToken(API_Base.Core.Models.TokenRequest) on controller API_Base.Controllers.AuthenticationController (API_Base).
+2019-11-13 12:26:37.0007 | Development | INFO | ::1 | 0 | POST | RequestToken | ModelState valid
+2019-11-13 12:26:37.0170 | Development | DEBUG | ::1 | 0 | POST | RequestToken | token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9uYW1lIjoic3RyaW5nIiwiZXhwIjoxNTczNjY2NTk3LCJpc3MiOiJhdXRvZmluYW5jaWVyYS5jb20uY28iLCJhdWQiOiJBdXRvQXVkaWVuY2UifQ.EBXQJNbUsi8pnuqC6Z3ODWD0DSqod9HDyTt9QM0aFNw
+2019-11-13 12:26:37.0170 | Development | INFO | ::1 | 0 | POST | RequestToken | Executing ObjectResult, writing value of type 'System.String'.
+2019-11-13 12:26:37.0262 | Development | INFO | ::1 | 0 | POST | RequestToken | Executed action API_Base.Controllers.AuthenticationController.RequestToken (API_Base) in 41.0941ms
+2019-11-13 12:26:37.0262 | Development | INFO | ::1 | 0 | POST | RequestToken | Executed endpoint 'API_Base.Controllers.AuthenticationController.RequestToken (API_Base)'
+2019-11-13 12:26:37.0262 | Development | INFO | ::1 | 0 | POST | RequestToken | Request finished in 81.1076ms 200 text/plain; charset=utf-8
+2019-11-13 12:27:13.9999 | Development | INFO | ::1 | 0 | GET |  | Request starting HTTP/2 GET https://localhost:5001/api/Authentication/test_Token  
+2019-11-13 12:27:14.0092 | Development | INFO | ::1 | 0 | GET | PruebaAuthorization | Authorization failed.
+2019-11-13 12:27:14.0092 | Development | INFO | ::1 | 0 | GET | PruebaAuthorization | AuthenticationScheme: Bearer was challenged.
+2019-11-13 12:27:14.0092 | Development | INFO | ::1 | 0 | GET | PruebaAuthorization | Request finished in 14.1609ms 401 
+2019-11-13 12:28:52.8824 | Development | INFO |  |  |  |  | User profile is available. Using 'C:\Users\luhero04\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2019-11-13 12:30:53.5230 | Development | INFO |  |  |  |  | User profile is available. Using 'C:\Users\luhero04\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2019-11-13 12:30:56.1884 | Development | INFO | ::1 | 0 | GET |  | Request starting HTTP/2 GET https://localhost:5001/swagger/index.html  
+2019-11-13 12:30:56.2997 | Development | INFO | ::1 | 0 | GET |  | Request finished in 111.7762ms 200 text/html; charset=utf-8
+2019-11-13 12:30:56.3103 | Development | INFO | ::1 | 0 | GET |  | Request starting HTTP/2 GET https://localhost:5001/swagger/swagger-ui.css  
+2019-11-13 12:30:56.3251 | Development | INFO | ::1 | 0 | GET |  | Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2019-11-13 12:30:56.3251 | Development | INFO | ::1 | 0 | GET |  | Request finished in 17.3214ms 200 text/css
+2019-11-13 12:30:56.4887 | Development | INFO | ::1 | 0 | GET |  | Request starting HTTP/2 GET https://localhost:5001/swagger/v1/swagger.json  
+2019-11-13 12:30:56.4919 | Development | INFO | ::1 | 0 | GET |  | Request starting HTTP/2 GET https://localhost:5001/swagger/favicon-32x32.png  
+2019-11-13 12:30:56.4919 | Development | INFO | ::1 | 0 | GET |  | Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+2019-11-13 12:30:56.4919 | Development | INFO | ::1 | 0 | GET |  | Request finished in 2.4666ms 200 image/png
+2019-11-13 12:30:56.8615 | Development | INFO | ::1 | 0 | GET |  | Request finished in 373.0783ms 200 application/json; charset=utf-8
+2019-11-13 12:32:13.2256 | Development | INFO |  |  |  |  | User profile is available. Using 'C:\Users\luhero04\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2019-11-13 12:32:16.4495 | Development | INFO | ::1 | 0 | GET |  | Request starting HTTP/2 GET https://localhost:5001/swagger/index.html  
+2019-11-13 12:32:16.5596 | Development | INFO | ::1 | 0 | GET |  | Request finished in 110.6223ms 200 text/html; charset=utf-8
+2019-11-13 12:32:16.5758 | Development | INFO | ::1 | 0 | GET |  | Request starting HTTP/2 GET https://localhost:5001/swagger/swagger-ui.css  
+2019-11-13 12:32:16.5758 | Development | INFO | ::1 | 0 | GET |  | Request starting HTTP/2 GET https://localhost:5001/swagger/swagger-ui-bundle.js  
+2019-11-13 12:32:16.5758 | Development | INFO | ::1 | 0 | GET |  | Request starting HTTP/2 GET https://localhost:5001/swagger/swagger-ui-standalone-preset.js  
+2019-11-13 12:32:16.5928 | Development | INFO | ::1 | 0 | GET |  | Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2019-11-13 12:32:16.5928 | Development | INFO | ::1 | 0 | GET |  | Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2019-11-13 12:32:16.5928 | Development | INFO | ::1 | 0 | GET |  | Request finished in 18.5831ms 200 application/javascript
+2019-11-13 12:32:16.5928 | Development | INFO | ::1 | 0 | GET |  | Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2019-11-13 12:32:16.5928 | Development | INFO | ::1 | 0 | GET |  | Request finished in 18.9761ms 200 application/javascript
+2019-11-13 12:32:16.5928 | Development | INFO | ::1 | 0 | GET |  | Request finished in 22.2379ms 200 text/css
+2019-11-13 12:32:16.7264 | Development | INFO | ::1 | 0 | GET |  | Request starting HTTP/2 GET https://localhost:5001/swagger/v1/swagger.json  
+2019-11-13 12:32:16.7469 | Development | INFO | ::1 | 0 | GET |  | Request starting HTTP/2 GET https://localhost:5001/swagger/favicon-32x32.png  
+2019-11-13 12:32:16.7469 | Development | INFO | ::1 | 0 | GET |  | Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+2019-11-13 12:32:16.7469 | Development | INFO | ::1 | 0 | GET |  | Request finished in 2.0393ms 200 image/png
+2019-11-13 12:32:17.1029 | Development | INFO | ::1 | 0 | GET |  | Request finished in 376.4962ms 200 application/json; charset=utf-8
+2019-11-13 12:35:03.8722 | Development | INFO | ::1 | 0 | GET |  | Request starting HTTP/2 GET https://localhost:5001/swagger/v1/swagger.json  
+2019-11-13 12:35:03.8722 | Development | INFO | ::1 | 0 | GET |  | Request finished in 2.5874ms 200 application/json; charset=utf-8
+2019-11-13 12:35:03.9066 | Development | INFO | ::1 | 0 | GET |  | Request starting HTTP/2 GET https://localhost:5001/favicon.ico  
+2019-11-13 12:35:03.9066 | Development | INFO | ::1 | 0 | GET |  | Request finished in 1.4079ms 404 
+2019-11-13 12:35:35.3534 | Development | INFO |  |  |  |  | User profile is available. Using 'C:\Users\luhero04\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2019-11-13 12:36:03.7549 | Development | INFO | ::1 | 0 | GET |  | Request starting HTTP/2 GET https://localhost:5001/swagger/index.html  
+2019-11-13 12:36:03.8642 | Development | INFO | ::1 | 0 | GET |  | Request finished in 110.0646ms 200 text/html; charset=utf-8
+2019-11-13 12:36:03.8746 | Development | INFO | ::1 | 0 | GET |  | Request starting HTTP/2 GET https://localhost:5001/swagger/swagger-ui.css  
+2019-11-13 12:36:03.8887 | Development | INFO | ::1 | 0 | GET |  | Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2019-11-13 12:36:03.8887 | Development | INFO | ::1 | 0 | GET |  | Request finished in 16.7946ms 200 text/css
+2019-11-13 12:36:03.9566 | Development | INFO | ::1 | 0 | GET |  | Request starting HTTP/2 GET https://localhost:5001/swagger/v1/swagger.json  
+2019-11-13 12:36:03.9566 | Development | INFO | ::1 | 0 | GET |  | Request starting HTTP/2 GET https://localhost:5001/swagger/favicon-32x32.png  
+2019-11-13 12:36:03.9604 | Development | INFO | ::1 | 0 | GET |  | Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+2019-11-13 12:36:03.9604 | Development | INFO | ::1 | 0 | GET |  | Request finished in 1.4934ms 200 image/png
+2019-11-13 12:36:04.3205 | Development | INFO | ::1 | 0 | GET |  | Request finished in 363.8638ms 200 application/json; charset=utf-8
+2019-11-13 12:37:04.7430 | Development | INFO |  |  |  |  | User profile is available. Using 'C:\Users\luhero04\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2019-11-13 12:37:43.3033 | Development | INFO |  |  |  |  | User profile is available. Using 'C:\Users\luhero04\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2019-11-13 12:37:59.4477 | Development | INFO |  |  |  |  | User profile is available. Using 'C:\Users\luhero04\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2019-11-13 12:38:31.7033 | Development | INFO |  |  |  |  | User profile is available. Using 'C:\Users\luhero04\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2019-11-13 12:38:42.6900 | Development | INFO |  |  |  |  | User profile is available. Using 'C:\Users\luhero04\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2019-11-13 12:38:43.4109 | Development | INFO | ::1 | 0 | GET |  | Request starting HTTP/1.1 GET https://localhost:5001/  
+2019-11-13 12:38:43.5278 | Development | INFO | ::1 | 0 | GET |  | Request finished in 116.9805ms 404 
+2019-11-13 12:38:46.3283 | Development | INFO | ::1 | 0 | GET |  | Request starting HTTP/1.1 GET https://localhost:5001/swagger/index.html  
+2019-11-13 12:38:46.3954 | Development | INFO | ::1 | 0 | GET |  | Request finished in 66.8581ms 200 text/html
+2019-11-13 12:38:46.4075 | Development | INFO | ::1 | 0 | GET |  | Request starting HTTP/1.1 GET https://localhost:5001/swagger/swagger-ui.css  
+2019-11-13 12:38:46.4244 | Development | INFO | ::1 | 0 | GET |  | Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2019-11-13 12:38:46.4244 | Development | INFO | ::1 | 0 | GET |  | Request finished in 19.5372ms 200 text/css
+2019-11-13 12:38:46.4820 | Development | INFO | ::1 | 0 | GET |  | Request starting HTTP/1.1 GET https://localhost:5001/swagger/v1/swagger.json  
+2019-11-13 12:38:46.4966 | Development | INFO | ::1 | 0 | GET |  | Request starting HTTP/1.1 GET https://localhost:5001/swagger/favicon-32x32.png  
+2019-11-13 12:38:46.4966 | Development | INFO | ::1 | 0 | GET |  | Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+2019-11-13 12:38:46.4966 | Development | INFO | ::1 | 0 | GET |  | Request finished in 5.4061ms 200 image/png
+2019-11-13 12:38:46.5771 | Development | INFO | ::1 | 0 | GET |  | Request finished in 96.6155ms 200 application/json;charset=utf-8
+2019-11-13 12:38:51.8327 | Development | INFO | ::1 | 0 | POST |  | Request starting HTTP/1.1 POST https://localhost:5001/api/Authentication/test_Request application/json-patch+json 50
+2019-11-13 12:38:51.8376 | Development | INFO | ::1 | 0 | POST |  | CORS policy execution successful.
+2019-11-13 12:38:51.8376 | Development | INFO | ::1 | 0 | POST | RequestToken | Executing endpoint 'API_Base.Controllers.AuthenticationController.RequestToken (API_Base)'
+2019-11-13 12:38:51.8710 | Development | INFO | ::1 | 0 | POST | RequestToken | Route matched with {action = "RequestToken", controller = "Authentication"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult RequestToken(API_Base.Core.Models.TokenRequest) on controller API_Base.Controllers.AuthenticationController (API_Base).
+2019-11-13 12:38:51.9018 | Development | INFO | ::1 | 0 | POST | RequestToken | Executing action method API_Base.Controllers.AuthenticationController.RequestToken (API_Base) - Validation state: Valid
+2019-11-13 12:38:51.9018 | Development | INFO | ::1 | 0 | POST | RequestToken | ModelState valid
+2019-11-13 12:38:51.9257 | Development | DEBUG | ::1 | 0 | POST | RequestToken | token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9uYW1lIjoic3RyaW5nIiwiZXhwIjoxNTczNjY3MzMxLCJpc3MiOiJhdXRvZmluYW5jaWVyYS5jb20uY28iLCJhdWQiOiJBdXRvQXVkaWVuY2UifQ.s13iI-EITMQ0HKSEs2-y4i8QHXsb6UT07mCVIhGavvg
+2019-11-13 12:38:51.9302 | Development | INFO | ::1 | 0 | POST | RequestToken | Executed action method API_Base.Controllers.AuthenticationController.RequestToken (API_Base), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 23.7369ms.
+2019-11-13 12:38:51.9302 | Development | INFO | ::1 | 0 | POST | RequestToken | Executing ObjectResult, writing value of type 'System.String'.
+2019-11-13 12:38:51.9497 | Development | INFO | ::1 | 0 | POST | RequestToken | Executed action API_Base.Controllers.AuthenticationController.RequestToken (API_Base) in 74.1442ms
+2019-11-13 12:38:51.9497 | Development | INFO | ::1 | 0 | POST | RequestToken | Executed endpoint 'API_Base.Controllers.AuthenticationController.RequestToken (API_Base)'
+2019-11-13 12:38:51.9497 | Development | INFO | ::1 | 0 | POST | RequestToken | Request finished in 121.796ms 200 application/json; charset=utf-8
+2019-11-13 12:40:15.8808 | Development | INFO | ::1 | 0 | GET |  | Request starting HTTP/1.1 GET https://localhost:5001/swagger/index.html  
+2019-11-13 12:40:15.8902 | Development | INFO | ::1 | 0 | GET |  | Request finished in 9.435ms 200 text/html
+2019-11-13 12:40:15.9043 | Development | INFO | ::1 | 0 | GET |  | Request starting HTTP/1.1 GET https://localhost:5001/swagger/swagger-ui.css  
+2019-11-13 12:40:15.9152 | Development | INFO | ::1 | 0 | GET |  | Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2019-11-13 12:40:15.9152 | Development | INFO | ::1 | 0 | GET |  | Request finished in 20.926ms 200 text/css
+2019-11-13 12:40:15.9696 | Development | INFO | ::1 | 0 | GET |  | Request starting HTTP/1.1 GET https://localhost:5001/swagger/v1/swagger.json  
+2019-11-13 12:40:15.9696 | Development | INFO | ::1 | 0 | GET |  | Request starting HTTP/1.1 GET https://localhost:5001/swagger/favicon-32x32.png  
+2019-11-13 12:40:15.9696 | Development | INFO | ::1 | 0 | GET |  | Request finished in 5.5635ms 200 application/json;charset=utf-8
+2019-11-13 12:40:15.9766 | Development | INFO | ::1 | 0 | GET |  | Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+2019-11-13 12:40:15.9766 | Development | INFO | ::1 | 0 | GET |  | Request finished in 6.542ms 200 image/png
+2019-11-13 12:40:26.4234 | Development | INFO |  |  |  |  | User profile is available. Using 'C:\Users\luhero04\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2019-11-13 12:40:27.0278 | Development | INFO | ::1 | 0 | GET |  | Request starting HTTP/1.1 GET https://localhost:5001/  
+2019-11-13 12:40:27.1310 | Development | INFO | ::1 | 0 | GET |  | Request finished in 103.7095ms 404 
+2019-11-13 12:40:29.8786 | Development | INFO | ::1 | 0 | GET |  | Request starting HTTP/1.1 GET https://localhost:5001/swagger/index.html  
+2019-11-13 12:40:29.9344 | Development | INFO | ::1 | 0 | GET |  | Request finished in 55.9986ms 200 text/html
+2019-11-13 12:40:29.9457 | Development | INFO | ::1 | 0 | GET |  | Request starting HTTP/1.1 GET https://localhost:5001/swagger/swagger-ui.css  
+2019-11-13 12:40:29.9612 | Development | INFO | ::1 | 0 | GET |  | Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2019-11-13 12:40:29.9612 | Development | INFO | ::1 | 0 | GET |  | Request finished in 17.9321ms 200 text/css
+2019-11-13 12:40:30.0120 | Development | INFO | ::1 | 0 | GET |  | Request starting HTTP/1.1 GET https://localhost:5001/swagger/v1/swagger.json  
+2019-11-13 12:40:30.0243 | Development | INFO | ::1 | 0 | GET |  | Request starting HTTP/1.1 GET https://localhost:5001/swagger/favicon-32x32.png  
+2019-11-13 12:40:30.0243 | Development | INFO | ::1 | 0 | GET |  | Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+2019-11-13 12:40:30.0243 | Development | INFO | ::1 | 0 | GET |  | Request finished in 7.309ms 200 image/png
+2019-11-13 12:40:30.1048 | Development | INFO | ::1 | 0 | GET |  | Request finished in 91.9317ms 200 application/json;charset=utf-8
+2019-11-13 12:41:40.7866 | Development | INFO |  |  |  |  | User profile is available. Using 'C:\Users\luhero04\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2019-11-13 12:41:41.3751 | Development | INFO | ::1 | 0 | GET |  | Request starting HTTP/1.1 GET https://localhost:5001/  
+2019-11-13 12:41:41.4778 | Development | INFO | ::1 | 0 | GET |  | Request finished in 103.15ms 404 
+2019-11-13 12:42:18.2767 | Development | INFO |  |  |  |  | User profile is available. Using 'C:\Users\luhero04\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2019-11-13 12:42:18.8752 | Development | INFO | ::1 | 0 | GET |  | Request starting HTTP/1.1 GET https://localhost:5001/  
+2019-11-13 12:42:18.9961 | Development | INFO | ::1 | 0 | GET |  | Request finished in 121.2528ms 404 
+2019-11-13 12:42:21.8627 | Development | INFO | ::1 | 0 | GET |  | Request starting HTTP/1.1 GET https://localhost:5001/swagger/index.html  
+2019-11-13 12:42:21.9227 | Development | INFO | ::1 | 0 | GET |  | Request finished in 60.7883ms 200 text/html
+2019-11-13 12:42:21.9335 | Development | INFO | ::1 | 0 | GET |  | Request starting HTTP/1.1 GET https://localhost:5001/swagger/swagger-ui.css  
+2019-11-13 12:42:21.9460 | Development | INFO | ::1 | 0 | GET |  | Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2019-11-13 12:42:21.9460 | Development | INFO | ::1 | 0 | GET |  | Request finished in 14.4873ms 200 text/css
+2019-11-13 12:42:22.0006 | Development | INFO | ::1 | 0 | GET |  | Request starting HTTP/1.1 GET https://localhost:5001/swagger/v1/swagger.json  
+2019-11-13 12:42:22.0162 | Development | INFO | ::1 | 0 | GET |  | Request starting HTTP/1.1 GET https://localhost:5001/swagger/favicon-32x32.png  
+2019-11-13 12:42:22.0162 | Development | INFO | ::1 | 0 | GET |  | Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+2019-11-13 12:42:22.0229 | Development | INFO | ::1 | 0 | GET |  | Request finished in 5.979ms 200 image/png
+2019-11-13 12:42:22.0924 | Development | INFO | ::1 | 0 | GET |  | Request finished in 91.7001ms 200 application/json;charset=utf-8
+2019-11-13 12:43:06.8895 | Development | INFO |  |  |  |  | User profile is available. Using 'C:\Users\luhero04\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2019-11-13 12:43:31.8095 | Development | INFO |  |  |  |  | User profile is available. Using 'C:\Users\luhero04\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2019-11-13 12:43:33.8616 | Development | INFO | ::1 | 0 | GET |  | Request starting HTTP/2 GET https://localhost:5001/swagger/index.html  
+2019-11-13 12:43:33.9715 | Development | INFO | ::1 | 0 | GET |  | Request finished in 110.3094ms 200 text/html; charset=utf-8
+2019-11-13 12:43:33.9808 | Development | INFO | ::1 | 0 | GET |  | Request starting HTTP/2 GET https://localhost:5001/swagger/swagger-ui.css  
+2019-11-13 12:43:33.9955 | Development | INFO | ::1 | 0 | GET |  | Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2019-11-13 12:43:33.9955 | Development | INFO | ::1 | 0 | GET |  | Request finished in 16.9299ms 200 text/css
+2019-11-13 12:43:34.0512 | Development | INFO | ::1 | 0 | GET |  | Request starting HTTP/2 GET https://localhost:5001/swagger/v1/swagger.json  
+2019-11-13 12:43:34.0553 | Development | INFO | ::1 | 0 | GET |  | Request starting HTTP/2 GET https://localhost:5001/swagger/favicon-32x32.png  
+2019-11-13 12:43:34.0553 | Development | INFO | ::1 | 0 | GET |  | Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+2019-11-13 12:43:34.0553 | Development | INFO | ::1 | 0 | GET |  | Request finished in 1.8206ms 200 image/png
+2019-11-13 12:43:34.4185 | Development | INFO | ::1 | 0 | GET |  | Request finished in 367.3378ms 200 application/json; charset=utf-8
+2019-11-13 12:44:43.7969 | Development | INFO |  |  |  |  | User profile is available. Using 'C:\Users\luhero04\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2019-11-13 12:44:44.1072 | Development | INFO | ::1 | 0 | GET |  | Request starting HTTP/2 GET https://localhost:5001/  
+2019-11-13 12:44:44.1765 | Development | INFO | ::1 | 0 | GET |  | Request finished in 70.376ms 404 
+2019-11-13 12:44:55.8981 | Development | INFO | ::1 | 0 | GET |  | Request starting HTTP/2 GET https://localhost:5001/swagger/index.html  
+2019-11-13 12:44:56.0056 | Development | INFO | ::1 | 0 | GET |  | Request finished in 107.0262ms 200 text/html; charset=utf-8
+2019-11-13 12:44:56.0138 | Development | INFO | ::1 | 0 | GET |  | Request starting HTTP/2 GET https://localhost:5001/swagger/swagger-ui.css  
+2019-11-13 12:44:56.0419 | Development | INFO | ::1 | 0 | GET |  | Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2019-11-13 12:44:56.0419 | Development | INFO | ::1 | 0 | GET |  | Request finished in 32.1317ms 200 text/css
+2019-11-13 12:44:56.1018 | Development | INFO | ::1 | 0 | GET |  | Request starting HTTP/2 GET https://localhost:5001/swagger/v1/swagger.json  
+2019-11-13 12:44:56.1018 | Development | INFO | ::1 | 0 | GET |  | Request starting HTTP/2 GET https://localhost:5001/swagger/favicon-32x32.png  
+2019-11-13 12:44:56.1018 | Development | INFO | ::1 | 0 | GET |  | Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+2019-11-13 12:44:56.1018 | Development | INFO | ::1 | 0 | GET |  | Request finished in 5.7614ms 200 image/png
+2019-11-13 12:44:56.5263 | Development | INFO | ::1 | 0 | GET |  | Request finished in 424.8359ms 200 application/json; charset=utf-8
+2019-11-13 12:45:42.7878 | Development | INFO | ::1 | 0 | POST |  | Request starting HTTP/2 POST https://localhost:5001/api/Authentication/test_Request application/json 41
+2019-11-13 12:45:42.7878 | Development | INFO | ::1 | 0 | POST | RequestToken | CORS policy execution successful.
+2019-11-13 12:45:42.7878 | Development | INFO | ::1 | 0 | POST | RequestToken | Executing endpoint 'API_Base.Controllers.AuthenticationController.RequestToken (API_Base)'
+2019-11-13 12:45:42.8233 | Development | INFO | ::1 | 0 | POST | RequestToken | Route matched with {action = "RequestToken", controller = "Authentication"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult RequestToken(API_Base.Core.Models.TokenRequest) on controller API_Base.Controllers.AuthenticationController (API_Base).
+2019-11-13 12:45:42.8576 | Development | INFO | ::1 | 0 | POST | RequestToken | ModelState valid
+2019-11-13 12:45:42.8778 | Development | DEBUG | ::1 | 0 | POST | RequestToken | token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9uYW1lIjoic3RyaW5nIiwiZXhwIjoxNTczNjY3NzQyLCJpc3MiOiJhdXRvZmluYW5jaWVyYS5jb20uY28iLCJhdWQiOiJBdXRvQXVkaWVuY2UifQ.fvnk6fOlHLhv3yCs7-HplpmAeEf9-Dp2RJt_4BbVQIY
+2019-11-13 12:45:42.8820 | Development | INFO | ::1 | 0 | POST | RequestToken | Executing ObjectResult, writing value of type 'System.String'.
+2019-11-13 12:45:42.8820 | Development | INFO | ::1 | 0 | POST | RequestToken | Executed action API_Base.Controllers.AuthenticationController.RequestToken (API_Base) in 57.992ms
+2019-11-13 12:45:42.8820 | Development | INFO | ::1 | 0 | POST | RequestToken | Executed endpoint 'API_Base.Controllers.AuthenticationController.RequestToken (API_Base)'
+2019-11-13 12:45:42.8990 | Development | INFO | ::1 | 0 | POST | RequestToken | Request finished in 111.9701ms 200 text/plain; charset=utf-8
+2019-11-13 12:46:34.8413 | Development | INFO | ::1 | 0 | GET |  | Request starting HTTP/2 GET https://localhost:5001/api/Authentication/test_Token  
+2019-11-13 12:46:34.8518 | Development | INFO | ::1 | 0 | GET | PruebaAuthorization | Authorization failed.
+2019-11-13 12:46:34.8518 | Development | INFO | ::1 | 0 | GET | PruebaAuthorization | AuthenticationScheme: Bearer was challenged.
+2019-11-13 12:46:34.8671 | Development | INFO | ::1 | 0 | GET | PruebaAuthorization | Request finished in 26.1071ms 401 
+2019-11-13 12:48:12.9315 | Development | INFO |  |  |  |  | User profile is available. Using 'C:\Users\luhero04\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2019-11-13 12:48:13.2266 | Development | INFO | ::1 | 0 | GET |  | Request starting HTTP/2 GET https://localhost:5001/  
+2019-11-13 12:48:19.0145 | Development | INFO | ::1 | 0 | GET |  | Request starting HTTP/2 GET https://localhost:5001/swagger/index.html  
+2019-11-13 12:48:19.0297 | Development | INFO | ::1 | 0 | GET |  | Request finished in 5803.9384ms 0 
+2019-11-13 12:48:19.1406 | Development | INFO | ::1 | 0 | GET |  | Request finished in 128.9573ms 200 text/html; charset=utf-8
+2019-11-13 12:48:19.1491 | Development | INFO | ::1 | 0 | GET |  | Request starting HTTP/2 GET https://localhost:5001/swagger/swagger-ui.css  
+2019-11-13 12:48:19.1747 | Development | INFO | ::1 | 0 | GET |  | Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2019-11-13 12:48:19.1747 | Development | INFO | ::1 | 0 | GET |  | Request finished in 29.6082ms 200 text/css
+2019-11-13 12:48:19.3197 | Development | INFO | ::1 | 0 | GET |  | Request starting HTTP/2 GET https://localhost:5001/swagger/v1/swagger.json  
+2019-11-13 12:48:19.3197 | Development | INFO | ::1 | 0 | GET |  | Request starting HTTP/2 GET https://localhost:5001/swagger/favicon-32x32.png  
+2019-11-13 12:48:19.3197 | Development | INFO | ::1 | 0 | GET |  | Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+2019-11-13 12:48:19.3197 | Development | INFO | ::1 | 0 | GET |  | Request finished in 4.349ms 200 image/png
+2019-11-13 12:48:19.7294 | Development | INFO | ::1 | 0 | GET |  | Request finished in 409.7835ms 200 application/json; charset=utf-8
+2019-11-13 12:48:24.5391 | Development | INFO | ::1 | 0 | POST |  | Request starting HTTP/2 POST https://localhost:5001/api/Authentication/test_Request application/json 41
+2019-11-13 12:48:24.5391 | Development | INFO | ::1 | 0 | POST | RequestToken | CORS policy execution successful.
+2019-11-13 12:48:24.5391 | Development | INFO | ::1 | 0 | POST | RequestToken | Executing endpoint 'API_Base.Controllers.AuthenticationController.RequestToken (API_Base)'
+2019-11-13 12:48:24.5732 | Development | INFO | ::1 | 0 | POST | RequestToken | Route matched with {action = "RequestToken", controller = "Authentication"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult RequestToken(API_Base.Core.Models.TokenRequest) on controller API_Base.Controllers.AuthenticationController (API_Base).
+2019-11-13 12:48:41.5266 | Development | INFO | ::1 | 0 | POST | RequestToken | ModelState valid
+2019-11-13 12:48:51.0246 | Development | DEBUG | ::1 | 0 | POST | RequestToken | token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9uYW1lIjoic3RyaW5nIiwiZXhwIjoxNTczNjY3OTIzLCJpc3MiOiJhdXRvZmluYW5jaWVyYS5jb20uY28iLCJhdWQiOiJBdXRvQXVkaWVuY2UifQ.hqFi2OKFGilHqdP5x3FoXHAkgNSt-KPlePzmddANRwk
+2019-11-13 12:48:56.8055 | Development | INFO | ::1 | 0 | POST | RequestToken | Executing ObjectResult, writing value of type 'System.String'.
+2019-11-13 12:48:56.8244 | Development | INFO | ::1 | 0 | POST | RequestToken | Executed action API_Base.Controllers.AuthenticationController.RequestToken (API_Base) in 32238.0285ms
+2019-11-13 12:48:56.8244 | Development | INFO | ::1 | 0 | POST | RequestToken | Executed endpoint 'API_Base.Controllers.AuthenticationController.RequestToken (API_Base)'
+2019-11-13 12:48:56.8244 | Development | INFO | ::1 | 0 | POST | RequestToken | Request finished in 32293.2959ms 200 text/plain; charset=utf-8
+2019-11-13 12:49:15.5938 | Development | INFO | ::1 | 0 | GET |  | Request starting HTTP/2 GET https://localhost:5001/api/Authentication/test_Token  
+2019-11-13 12:49:15.6008 | Development | INFO | ::1 | 0 | GET | PruebaAuthorization | Authorization failed.
+2019-11-13 12:49:15.6008 | Development | INFO | ::1 | 0 | GET | PruebaAuthorization | AuthenticationScheme: Bearer was challenged.
+2019-11-13 12:49:15.6008 | Development | INFO | ::1 | 0 | GET | PruebaAuthorization | Request finished in 22.3364ms 401 
+2019-11-13 12:54:39.3082 | Development | INFO | ::1 | 0 | POST |  | Request starting HTTP/2 POST https://localhost:5001/api/Authentication/test_Request application/json 41
+2019-11-13 12:54:39.3082 | Development | INFO | ::1 | 0 | POST | RequestToken | CORS policy execution successful.
+2019-11-13 12:54:39.3203 | Development | INFO | ::1 | 0 | POST | RequestToken | Executing endpoint 'API_Base.Controllers.AuthenticationController.RequestToken (API_Base)'
+2019-11-13 12:54:39.3203 | Development | INFO | ::1 | 0 | POST | RequestToken | Route matched with {action = "RequestToken", controller = "Authentication"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult RequestToken(API_Base.Core.Models.TokenRequest) on controller API_Base.Controllers.AuthenticationController (API_Base).
+2019-11-13 12:54:45.7732 | Development | INFO | ::1 | 0 | POST | RequestToken | ModelState valid
+2019-11-13 12:54:45.7732 | Development | DEBUG | ::1 | 0 | POST | RequestToken | token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9uYW1lIjoic3RyaW5nIiwiZXhwIjoxNTczNjY4Mjg1LCJpc3MiOiJhdXRvZmluYW5jaWVyYS5jb20uY28iLCJhdWQiOiJBdXRvQXVkaWVuY2UifQ.ux-294CT9YBMZYh7pCvHJXlOLk5qSh_EyWcwXrunw0o
+2019-11-13 12:54:46.3967 | Development | INFO | ::1 | 0 | POST | RequestToken | Executing ObjectResult, writing value of type 'System.String'.
+2019-11-13 12:54:46.4005 | Development | INFO | ::1 | 0 | POST | RequestToken | Executed action API_Base.Controllers.AuthenticationController.RequestToken (API_Base) in 7072.5264ms
+2019-11-13 12:54:46.4005 | Development | INFO | ::1 | 0 | POST | RequestToken | Executed endpoint 'API_Base.Controllers.AuthenticationController.RequestToken (API_Base)'
+2019-11-13 12:54:46.4005 | Development | INFO | ::1 | 0 | POST | RequestToken | Request finished in 7100.2374ms 200 text/plain; charset=utf-8
+2019-11-13 12:59:22.0362 | Development | INFO | 127.0.0.1 | 0 | GET |  | Request starting HTTP/1.1 GET https://localhost:5001/api/Authentication/test_Request  
+2019-11-13 12:59:22.0392 | Development | INFO | 127.0.0.1 | 0 | GET |  | Executing endpoint '405 HTTP Method Not Supported'
+2019-11-13 12:59:22.0392 | Development | INFO | 127.0.0.1 | 0 | GET |  | Executed endpoint '405 HTTP Method Not Supported'
+2019-11-13 12:59:22.0392 | Development | INFO | 127.0.0.1 | 0 | GET |  | Request finished in 9.9595ms 405 
+2019-11-13 12:59:34.4542 | Development | INFO | 127.0.0.1 | 0 | GET |  | Request starting HTTP/1.1 GET https://localhost:5001/api/Authentication/test_Request  
+2019-11-13 12:59:34.4542 | Development | INFO | 127.0.0.1 | 0 | GET |  | Executing endpoint '405 HTTP Method Not Supported'
+2019-11-13 12:59:34.4607 | Development | INFO | 127.0.0.1 | 0 | GET |  | Executed endpoint '405 HTTP Method Not Supported'
+2019-11-13 12:59:34.4607 | Development | INFO | 127.0.0.1 | 0 | GET |  | Request finished in 9.6893ms 405 
+2019-11-13 12:59:56.0054 | Development | INFO | 127.0.0.1 | 0 | POST |  | Request starting HTTP/1.1 POST https://localhost:5001/api/Authentication/test_Request  0
+2019-11-13 12:59:56.0087 | Development | INFO | 127.0.0.1 | 0 | POST | RequestToken | Executing endpoint 'API_Base.Controllers.AuthenticationController.RequestToken (API_Base)'
+2019-11-13 12:59:56.0087 | Development | INFO | 127.0.0.1 | 0 | POST | RequestToken | Route matched with {action = "RequestToken", controller = "Authentication"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult RequestToken(API_Base.Core.Models.TokenRequest) on controller API_Base.Controllers.AuthenticationController (API_Base).
+2019-11-13 12:59:59.5153 | Development | INFO | 127.0.0.1 | 0 | POST | RequestToken | Executing ObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ProblemDetails'.
+2019-11-13 12:59:59.5153 | Development | INFO | 127.0.0.1 | 0 | POST | RequestToken | Executed action API_Base.Controllers.AuthenticationController.RequestToken (API_Base) in 3507.8047ms
+2019-11-13 12:59:59.5251 | Development | INFO | 127.0.0.1 | 0 | POST | RequestToken | Executed endpoint 'API_Base.Controllers.AuthenticationController.RequestToken (API_Base)'
+2019-11-13 12:59:59.5251 | Development | INFO | 127.0.0.1 | 0 | POST | RequestToken | Request finished in 3522.1957ms 415 application/problem+json; charset=utf-8
+2019-11-13 13:00:34.2758 | Development | INFO | 127.0.0.1 | 0 | POST |  | Request starting HTTP/1.1 POST https://localhost:5001/api/Authentication/test_Request application/json 49
+2019-11-13 13:00:34.2758 | Development | INFO | 127.0.0.1 | 0 | POST | RequestToken | Executing endpoint 'API_Base.Controllers.AuthenticationController.RequestToken (API_Base)'
+2019-11-13 13:00:34.2758 | Development | INFO | 127.0.0.1 | 0 | POST | RequestToken | Route matched with {action = "RequestToken", controller = "Authentication"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult RequestToken(API_Base.Core.Models.TokenRequest) on controller API_Base.Controllers.AuthenticationController (API_Base).
+2019-11-13 13:00:36.8378 | Development | INFO | 127.0.0.1 | 0 | POST | RequestToken | ModelState valid
+2019-11-13 13:00:36.8378 | Development | DEBUG | 127.0.0.1 | 0 | POST | RequestToken | token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9uYW1lIjoiYXNkIiwiZXhwIjoxNTczNjY4NjM2LCJpc3MiOiJhdXRvZmluYW5jaWVyYS5jb20uY28iLCJhdWQiOiJBdXRvQXVkaWVuY2UifQ.dcbJQ7DHQ8_3odpuN2k4UcyCimyq08HelxNmuf1lyO0
+2019-11-13 13:00:37.4576 | Development | INFO | 127.0.0.1 | 0 | POST | RequestToken | Executing ObjectResult, writing value of type 'System.String'.
+2019-11-13 13:00:37.4610 | Development | INFO | 127.0.0.1 | 0 | POST | RequestToken | Executed action API_Base.Controllers.AuthenticationController.RequestToken (API_Base) in 3171.8211ms
+2019-11-13 13:00:37.4610 | Development | INFO | 127.0.0.1 | 0 | POST | RequestToken | Executed endpoint 'API_Base.Controllers.AuthenticationController.RequestToken (API_Base)'
+2019-11-13 13:00:37.4610 | Development | INFO | 127.0.0.1 | 0 | POST | RequestToken | Request finished in 3190.1008ms 200 text/plain; charset=utf-8
+2019-11-13 13:00:48.2430 | Development | INFO | 127.0.0.1 | 0 | POST |  | Request starting HTTP/1.1 POST https://localhost:5001/api/Authentication/test_Token application/json 0
+2019-11-13 13:00:48.2942 | Development | INFO | 127.0.0.1 | 0 | POST |  | Failed to validate the token.
+2019-11-13 13:00:48.2942 | Development | INFO | 127.0.0.1 | 0 | POST |  | Bearer was not authenticated. Failure message: IDX10503: Signature validation failed. Keys tried: '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+Exceptions caught:
+ '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+token: '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+2019-11-13 13:00:48.2942 | Development | INFO | 127.0.0.1 | 0 | POST |  | Executing endpoint '405 HTTP Method Not Supported'
+2019-11-13 13:00:48.2942 | Development | INFO | 127.0.0.1 | 0 | POST |  | Executed endpoint '405 HTTP Method Not Supported'
+2019-11-13 13:00:48.3046 | Development | INFO | 127.0.0.1 | 0 | POST |  | Request finished in 62.4276ms 405 
+2019-11-13 13:00:55.8966 | Development | INFO | 127.0.0.1 | 0 | GET |  | Request starting HTTP/1.1 GET https://localhost:5001/api/Authentication/test_Token application/json 
+2019-11-13 13:00:55.9011 | Development | INFO | 127.0.0.1 | 0 | GET | PruebaAuthorization | Failed to validate the token.
+2019-11-13 13:00:55.9011 | Development | INFO | 127.0.0.1 | 0 | GET | PruebaAuthorization | Bearer was not authenticated. Failure message: IDX10503: Signature validation failed. Keys tried: '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+Exceptions caught:
+ '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+token: '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+2019-11-13 13:00:55.9011 | Development | INFO | 127.0.0.1 | 0 | GET | PruebaAuthorization | Authorization failed.
+2019-11-13 13:00:55.9011 | Development | INFO | 127.0.0.1 | 0 | GET | PruebaAuthorization | AuthenticationScheme: Bearer was challenged.
+2019-11-13 13:00:55.9141 | Development | INFO | 127.0.0.1 | 0 | GET | PruebaAuthorization | Request finished in 17.9144ms 401 
+2019-11-13 13:03:13.2662 | Development | INFO | 127.0.0.1 | 0 | POST |  | Request starting HTTP/1.1 POST https://localhost:5001/api/Authentication/request application/json 58
+2019-11-13 13:03:13.2662 | Development | INFO | 127.0.0.1 | 0 | POST |  | Request finished in 3.457ms 404 
+2019-11-13 13:03:21.9887 | Development | INFO | 127.0.0.1 | 0 | POST |  | Request starting HTTP/1.1 POST https://localhost:5001/api/Authentication/test_Request application/json 49
+2019-11-13 13:03:21.9922 | Development | INFO | 127.0.0.1 | 0 | POST | RequestToken | Executing endpoint 'API_Base.Controllers.AuthenticationController.RequestToken (API_Base)'
+2019-11-13 13:03:21.9922 | Development | INFO | 127.0.0.1 | 0 | POST | RequestToken | Route matched with {action = "RequestToken", controller = "Authentication"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult RequestToken(API_Base.Core.Models.TokenRequest) on controller API_Base.Controllers.AuthenticationController (API_Base).
+2019-11-13 13:03:26.9214 | Development | INFO | 127.0.0.1 | 0 | POST | RequestToken | ModelState valid
+2019-11-13 13:03:26.9214 | Development | DEBUG | 127.0.0.1 | 0 | POST | RequestToken | token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9uYW1lIjoiYXNkIiwiZXhwIjoxNTczNjY4ODA2LCJpc3MiOiJhdXRvZmluYW5jaWVyYS5jb20uY28iLCJhdWQiOiJBdXRvQXVkaWVuY2UifQ.FDtsOSEVuLp7hCt1cD81QZOSJbBRQHCILBGGswX2O9I
+2019-11-13 13:03:26.9214 | Development | INFO | 127.0.0.1 | 0 | POST | RequestToken | Executing ObjectResult, writing value of type 'System.String'.
+2019-11-13 13:03:26.9307 | Development | INFO | 127.0.0.1 | 0 | POST | RequestToken | Executed action API_Base.Controllers.AuthenticationController.RequestToken (API_Base) in 4930.4297ms
+2019-11-13 13:03:26.9307 | Development | INFO | 127.0.0.1 | 0 | POST | RequestToken | Executed endpoint 'API_Base.Controllers.AuthenticationController.RequestToken (API_Base)'
+2019-11-13 13:03:26.9307 | Development | INFO | 127.0.0.1 | 0 | POST | RequestToken | Request finished in 4947.2805ms 200 text/plain; charset=utf-8
+2019-11-13 13:03:35.2670 | Development | INFO | 127.0.0.1 | 0 | GET |  | Request starting HTTP/1.1 GET https://localhost:5001/api/Authentication/test_Token application/json 
+2019-11-13 13:03:35.2670 | Development | INFO | 127.0.0.1 | 0 | GET | PruebaAuthorization | Failed to validate the token.
+2019-11-13 13:03:35.2736 | Development | INFO | 127.0.0.1 | 0 | GET | PruebaAuthorization | Bearer was not authenticated. Failure message: IDX10503: Signature validation failed. Keys tried: '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+Exceptions caught:
+ '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+token: '[PII is hidden. For more details, see https://aka.ms/IdentityModel/PII.]'.
+2019-11-13 13:03:35.2736 | Development | INFO | 127.0.0.1 | 0 | GET | PruebaAuthorization | Authorization failed.
+2019-11-13 13:03:35.2736 | Development | INFO | 127.0.0.1 | 0 | GET | PruebaAuthorization | AuthenticationScheme: Bearer was challenged.
+2019-11-13 13:03:35.2736 | Development | INFO | 127.0.0.1 | 0 | GET | PruebaAuthorization | Request finished in 16.8445ms 401 
+2019-11-13 13:05:00.6889 | Development | INFO |  |  |  |  | User profile is available. Using 'C:\Users\luhero04\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2019-11-13 13:05:00.9924 | Development | INFO | ::1 | 0 | GET |  | Request starting HTTP/2 GET https://localhost:5001/  
+2019-11-13 13:05:21.0091 | Development | INFO | 127.0.0.1 | 0 | POST |  | Request starting HTTP/1.1 POST https://localhost:5001/api/Authentication/test_Request application/json 49
+2019-11-13 13:05:21.0091 | Development | INFO | 127.0.0.1 | 0 | POST |  | Request starting HTTP/1.1 POST https://localhost:5001/api/Authentication/test_Request application/json 49
+2019-11-13 13:05:21.0279 | Development | INFO | 127.0.0.1 | 0 | POST | RequestToken | Executing endpoint 'API_Base.Controllers.AuthenticationController.RequestToken (API_Base)'
+2019-11-13 13:05:21.0279 | Development | INFO | 127.0.0.1 | 0 | POST | RequestToken | Executing endpoint 'API_Base.Controllers.AuthenticationController.RequestToken (API_Base)'
+2019-11-13 13:05:21.0279 | Development | INFO | ::1 | 0 | GET |  | Request finished in 20038.3769ms 0 
+2019-11-13 13:05:21.0574 | Development | INFO | 127.0.0.1 | 0 | POST | RequestToken | Route matched with {action = "RequestToken", controller = "Authentication"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult RequestToken(API_Base.Core.Models.TokenRequest) on controller API_Base.Controllers.AuthenticationController (API_Base).
+2019-11-13 13:05:21.0574 | Development | INFO | 127.0.0.1 | 0 | POST | RequestToken | Route matched with {action = "RequestToken", controller = "Authentication"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult RequestToken(API_Base.Core.Models.TokenRequest) on controller API_Base.Controllers.AuthenticationController (API_Base).
+2019-11-13 13:05:21.0951 | Development | INFO | 127.0.0.1 | 0 | POST | RequestToken | ModelState valid
+2019-11-13 13:05:21.0951 | Development | INFO | 127.0.0.1 | 0 | POST | RequestToken | ModelState valid
+2019-11-13 13:05:24.4173 | Development | INFO | 127.0.0.1 | 0 | POST | RequestToken | Executed action API_Base.Controllers.AuthenticationController.RequestToken (API_Base) in 3343.0185ms
+2019-11-13 13:05:24.4173 | Development | INFO | 127.0.0.1 | 0 | POST | RequestToken | Executed action API_Base.Controllers.AuthenticationController.RequestToken (API_Base) in 3342.7168ms
+2019-11-13 13:05:24.4173 | Development | INFO | 127.0.0.1 | 0 | POST | RequestToken | Executed endpoint 'API_Base.Controllers.AuthenticationController.RequestToken (API_Base)'
+2019-11-13 13:05:24.4173 | Development | INFO | 127.0.0.1 | 0 | POST | RequestToken | Executed endpoint 'API_Base.Controllers.AuthenticationController.RequestToken (API_Base)'
+2019-11-13 13:05:24.4606 | Development | ERROR | 127.0.0.1 | 0 | POST | RequestToken | Connection id "0HLR8CG06H519", Request id "0HLR8CG06H519:00000001": An unhandled exception was thrown by the application.
+2019-11-13 13:05:24.4606 | Development | ERROR | 127.0.0.1 | 0 | POST | RequestToken | Connection id "0HLR8CG06H51A", Request id "0HLR8CG06H51A:00000001": An unhandled exception was thrown by the application.
+2019-11-13 13:05:24.4606 | Development | INFO | 127.0.0.1 | 0 | POST | RequestToken | Request finished in 3454.9954ms 500 
+2019-11-13 13:05:24.4606 | Development | INFO | 127.0.0.1 | 0 | POST | RequestToken | Request finished in 3454.9983ms 500 
+2019-11-13 13:05:34.5510 | Development | INFO | 127.0.0.1 | 0 | POST |  | Request starting HTTP/1.1 POST https://localhost:5001/api/Authentication/test_Request application/json 49
+2019-11-13 13:05:34.5579 | Development | INFO | 127.0.0.1 | 0 | POST | RequestToken | Executing endpoint 'API_Base.Controllers.AuthenticationController.RequestToken (API_Base)'
+2019-11-13 13:05:34.5579 | Development | INFO | 127.0.0.1 | 0 | POST | RequestToken | Route matched with {action = "RequestToken", controller = "Authentication"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult RequestToken(API_Base.Core.Models.TokenRequest) on controller API_Base.Controllers.AuthenticationController (API_Base).
+2019-11-13 13:05:34.5579 | Development | INFO | 127.0.0.1 | 0 | POST | RequestToken | ModelState valid
+2019-11-13 13:06:08.9876 | Development | INFO | 127.0.0.1 | 0 | POST | RequestToken | Executed action API_Base.Controllers.AuthenticationController.RequestToken (API_Base) in 34423.5082ms
+2019-11-13 13:06:08.9876 | Development | INFO | 127.0.0.1 | 0 | POST | RequestToken | Executed endpoint 'API_Base.Controllers.AuthenticationController.RequestToken (API_Base)'
+2019-11-13 13:06:08.9947 | Development | ERROR | 127.0.0.1 | 0 | POST | RequestToken | Connection id "0HLR8CG06H51B", Request id "0HLR8CG06H51B:00000001": An unhandled exception was thrown by the application.
+2019-11-13 13:06:08.9947 | Development | INFO | 127.0.0.1 | 0 | POST | RequestToken | Request finished in 34446.4891ms 500 
+2019-11-13 13:06:19.9206 | Development | INFO | 127.0.0.1 | 0 | POST |  | Request starting HTTP/1.1 POST https://localhost:5001/api/Authentication/test_Request application/json 49
+2019-11-13 13:06:19.9206 | Development | INFO | 127.0.0.1 | 0 | POST | RequestToken | Executing endpoint 'API_Base.Controllers.AuthenticationController.RequestToken (API_Base)'
+2019-11-13 13:06:19.9206 | Development | INFO | 127.0.0.1 | 0 | POST | RequestToken | Route matched with {action = "RequestToken", controller = "Authentication"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult RequestToken(API_Base.Core.Models.TokenRequest) on controller API_Base.Controllers.AuthenticationController (API_Base).
+2019-11-13 13:06:19.9206 | Development | INFO | 127.0.0.1 | 0 | POST | RequestToken | ModelState valid
+2019-11-13 13:08:19.1372 | Development | INFO | 127.0.0.1 | 0 | POST | RequestToken | Executed action API_Base.Controllers.AuthenticationController.RequestToken (API_Base) in 119204.8416ms
+2019-11-13 13:08:19.1372 | Development | INFO | 127.0.0.1 | 0 | POST | RequestToken | Executed endpoint 'API_Base.Controllers.AuthenticationController.RequestToken (API_Base)'
+2019-11-13 13:08:19.1372 | Development | ERROR | 127.0.0.1 | 0 | POST | RequestToken | Connection id "0HLR8CG06H51C", Request id "0HLR8CG06H51C:00000001": An unhandled exception was thrown by the application.
+2019-11-13 13:08:19.1499 | Development | INFO | 127.0.0.1 | 0 | POST | RequestToken | Request finished in 119226.8749ms 500 
+2019-11-13 13:08:42.8602 | Development | INFO |  |  |  |  | User profile is available. Using 'C:\Users\luhero04\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2019-11-13 13:08:43.1765 | Development | INFO | ::1 | 0 | GET |  | Request starting HTTP/2 GET https://localhost:5001/  
+2019-11-13 13:08:46.8951 | Development | INFO | ::1 | 0 | GET |  | Request finished in 3718.6585ms 0 
+2019-11-13 13:08:49.5062 | Development | INFO | 127.0.0.1 | 0 | POST |  | Request starting HTTP/1.1 POST https://localhost:5001/api/Authentication/test_Request application/json 49
+2019-11-13 13:08:49.5066 | Development | INFO | 127.0.0.1 | 0 | POST | RequestToken | Executing endpoint 'API_Base.Controllers.AuthenticationController.RequestToken (API_Base)'
+2019-11-13 13:08:49.5419 | Development | INFO | 127.0.0.1 | 0 | POST | RequestToken | Route matched with {action = "RequestToken", controller = "Authentication"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult RequestToken(API_Base.Core.Models.TokenRequest) on controller API_Base.Controllers.AuthenticationController (API_Base).
+2019-11-13 13:08:49.5696 | Development | INFO | 127.0.0.1 | 0 | POST | RequestToken | ModelState valid
+2019-11-13 13:09:09.3814 | Development | INFO | 127.0.0.1 | 0 | POST | RequestToken | Executed action API_Base.Controllers.AuthenticationController.RequestToken (API_Base) in 19833.8165ms
+2019-11-13 13:09:09.3893 | Development | INFO | 127.0.0.1 | 0 | POST | RequestToken | Executed endpoint 'API_Base.Controllers.AuthenticationController.RequestToken (API_Base)'
+2019-11-13 13:09:09.4298 | Development | ERROR | 127.0.0.1 | 0 | POST | RequestToken | Connection id "0HLR8CI2DDMSK", Request id "0HLR8CI2DDMSK:00000001": An unhandled exception was thrown by the application.
+2019-11-13 13:09:09.4298 | Development | INFO | 127.0.0.1 | 0 | POST | RequestToken | Request finished in 19927.9845ms 500 
+2019-11-13 13:09:50.0695 | Development | INFO |  |  |  |  | User profile is available. Using 'C:\Users\luhero04\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2019-11-13 13:09:59.5694 | Development | INFO | 127.0.0.1 | 0 | POST |  | Request starting HTTP/1.1 POST https://localhost:5001/api/Authentication/test_Request application/json 49
+2019-11-13 13:09:59.6096 | Development | INFO | 127.0.0.1 | 0 | POST | RequestToken | Executing endpoint 'API_Base.Controllers.AuthenticationController.RequestToken (API_Base)'
+2019-11-13 13:09:59.6355 | Development | INFO | 127.0.0.1 | 0 | POST | RequestToken | Route matched with {action = "RequestToken", controller = "Authentication"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult RequestToken(API_Base.Core.Models.TokenRequest) on controller API_Base.Controllers.AuthenticationController (API_Base).
+2019-11-13 13:09:59.6537 | Development | INFO | 127.0.0.1 | 0 | POST | RequestToken | ModelState valid
+2019-11-13 13:09:59.7144 | Development | INFO | 127.0.0.1 | 0 | POST | RequestToken | Executed action API_Base.Controllers.AuthenticationController.RequestToken (API_Base) in 75.8561ms
+2019-11-13 13:09:59.7144 | Development | INFO | 127.0.0.1 | 0 | POST | RequestToken | Executed endpoint 'API_Base.Controllers.AuthenticationController.RequestToken (API_Base)'
+2019-11-13 13:09:59.7316 | Development | ERROR | 127.0.0.1 | 0 | POST | RequestToken | Connection id "0HLR8CIP69PNA", Request id "0HLR8CIP69PNA:00000001": An unhandled exception was thrown by the application.
+2019-11-13 13:09:59.7316 | Development | INFO | 127.0.0.1 | 0 | POST | RequestToken | Request finished in 166.0583ms 500 
+2019-11-13 13:11:16.8659 | Development | INFO |  |  |  |  | User profile is available. Using 'C:\Users\luhero04\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2019-11-13 13:11:21.3919 | Development | INFO | 127.0.0.1 | 0 | POST |  | Request starting HTTP/1.1 POST https://localhost:5001/api/Authentication/test_Request application/json 49
+2019-11-13 13:11:21.4336 | Development | INFO | 127.0.0.1 | 0 | POST | RequestToken | Executing endpoint 'API_Base.Controllers.AuthenticationController.RequestToken (API_Base)'
+2019-11-13 13:11:21.4444 | Development | INFO | 127.0.0.1 | 0 | POST | RequestToken | Route matched with {action = "RequestToken", controller = "Authentication"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult RequestToken(API_Base.Core.Models.TokenRequest) on controller API_Base.Controllers.AuthenticationController (API_Base).
+2019-11-13 13:11:21.5338 | Development | INFO | 127.0.0.1 | 0 | POST | RequestToken | Executed action API_Base.Controllers.AuthenticationController.RequestToken (API_Base) in 71.506ms
+2019-11-13 13:11:21.5338 | Development | INFO | 127.0.0.1 | 0 | POST | RequestToken | Executed endpoint 'API_Base.Controllers.AuthenticationController.RequestToken (API_Base)'
+2019-11-13 13:11:21.5510 | Development | ERROR | 127.0.0.1 | 0 | POST | RequestToken | Connection id "0HLR8CJHIJK3I", Request id "0HLR8CJHIJK3I:00000001": An unhandled exception was thrown by the application.
+2019-11-13 13:11:21.5543 | Development | INFO | 127.0.0.1 | 0 | POST | RequestToken | Request finished in 162.9003ms 500 
+2019-11-13 14:25:22.1473 | Development | INFO |  |  |  |  | User profile is available. Using 'C:\Users\luhero04\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2019-11-13 14:25:30.1397 | Development | INFO | 127.0.0.1 | 0 | POST |  | Request starting HTTP/1.1 POST https://localhost:5001/api/Authentication/test_Request application/json 49
+2019-11-13 14:25:30.1799 | Development | INFO | 127.0.0.1 | 0 | POST | RequestToken | Executing endpoint 'API_Base.Controllers.AuthenticationController.RequestToken (API_Base)'
+2019-11-13 14:25:30.1999 | Development | INFO | 127.0.0.1 | 0 | POST | RequestToken | Route matched with {action = "RequestToken", controller = "Authentication"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult RequestToken(API_Base.Core.Models.TokenRequest) on controller API_Base.Controllers.AuthenticationController (API_Base).
+2019-11-13 14:25:30.2299 | Development | INFO | 127.0.0.1 | 0 | POST | RequestToken | Executed action API_Base.Controllers.AuthenticationController.RequestToken (API_Base) in 21.2295ms
+2019-11-13 14:25:30.2299 | Development | INFO | 127.0.0.1 | 0 | POST | RequestToken | Executed endpoint 'API_Base.Controllers.AuthenticationController.RequestToken (API_Base)'
+2019-11-13 14:25:30.2471 | Development | ERROR | 127.0.0.1 | 0 | POST | RequestToken | Connection id "0HLR8DSVD5T7R", Request id "0HLR8DSVD5T7R:00000001": An unhandled exception was thrown by the application.
+2019-11-13 14:25:30.2471 | Development | INFO | 127.0.0.1 | 0 | POST | RequestToken | Request finished in 111.5429ms 500 
+2019-11-13 14:25:46.2418 | Development | INFO | ::1 | 0 | GET |  | Request starting HTTP/2 GET https://localhost:5001/swagger/index.html  
+2019-11-13 14:25:46.3169 | Development | INFO | ::1 | 0 | GET |  | Request finished in 75.251ms 200 text/html; charset=utf-8
+2019-11-13 14:25:46.3289 | Development | INFO | ::1 | 0 | GET |  | Request starting HTTP/2 GET https://localhost:5001/swagger/swagger-ui.css  
+2019-11-13 14:25:46.3429 | Development | INFO | ::1 | 0 | GET |  | Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2019-11-13 14:25:46.3429 | Development | INFO | ::1 | 0 | GET |  | Request finished in 16.9612ms 200 text/css
+2019-11-13 14:25:46.4905 | Development | INFO | ::1 | 0 | GET |  | Request starting HTTP/2 GET https://localhost:5001/swagger/v1/swagger.json  
+2019-11-13 14:25:46.4953 | Development | INFO | ::1 | 0 | GET |  | Request starting HTTP/2 GET https://localhost:5001/swagger/favicon-32x32.png  
+2019-11-13 14:25:46.4953 | Development | INFO | ::1 | 0 | GET |  | Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+2019-11-13 14:25:46.4953 | Development | INFO | ::1 | 0 | GET |  | Request finished in 3.5081ms 200 image/png
+2019-11-13 14:25:46.8644 | Development | INFO | ::1 | 0 | GET |  | Request finished in 373.868ms 200 application/json; charset=utf-8
+2019-11-13 14:25:50.0892 | Development | INFO | ::1 | 0 | POST |  | Request starting HTTP/2 POST https://localhost:5001/api/Authentication/test_Request application/json 41
+2019-11-13 14:25:50.0892 | Development | INFO | ::1 | 0 | POST | RequestToken | CORS policy execution successful.
+2019-11-13 14:25:50.0892 | Development | INFO | ::1 | 0 | POST | RequestToken | Executing endpoint 'API_Base.Controllers.AuthenticationController.RequestToken (API_Base)'
+2019-11-13 14:25:50.0892 | Development | INFO | ::1 | 0 | POST | RequestToken | Route matched with {action = "RequestToken", controller = "Authentication"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult RequestToken(API_Base.Core.Models.TokenRequest) on controller API_Base.Controllers.AuthenticationController (API_Base).
+2019-11-13 14:25:50.0892 | Development | INFO | ::1 | 0 | POST | RequestToken | Executed action API_Base.Controllers.AuthenticationController.RequestToken (API_Base) in 1.7034ms
+2019-11-13 14:25:50.0892 | Development | INFO | ::1 | 0 | POST | RequestToken | Executed endpoint 'API_Base.Controllers.AuthenticationController.RequestToken (API_Base)'
+2019-11-13 14:25:50.1010 | Development | ERROR | ::1 | 0 | POST | RequestToken | Connection id "0HLR8DSVD5T7T", Request id "0HLR8DSVD5T7T:00000009": An unhandled exception was thrown by the application.
+2019-11-13 14:25:50.1010 | Development | INFO | ::1 | 0 | POST | RequestToken | Request finished in 12.8601ms 500 
+2019-11-13 14:26:21.3555 | Development | INFO |  |  |  |  | User profile is available. Using 'C:\Users\luhero04\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2019-11-13 14:26:27.1261 | Development | INFO | ::1 | 0 | GET |  | Request starting HTTP/2 GET https://localhost:5001/swagger/index.html  
+2019-11-13 14:26:27.2342 | Development | INFO | ::1 | 0 | GET |  | Request finished in 108.4908ms 200 text/html; charset=utf-8
+2019-11-13 14:26:27.2444 | Development | INFO | ::1 | 0 | GET |  | Request starting HTTP/2 GET https://localhost:5001/swagger/swagger-ui.css  
+2019-11-13 14:26:27.2586 | Development | INFO | ::1 | 0 | GET |  | Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2019-11-13 14:26:27.2586 | Development | INFO | ::1 | 0 | GET |  | Request finished in 16.4413ms 200 text/css
+2019-11-13 14:26:27.4219 | Development | INFO | ::1 | 0 | GET |  | Request starting HTTP/2 GET https://localhost:5001/swagger/v1/swagger.json  
+2019-11-13 14:26:27.4219 | Development | INFO | ::1 | 0 | GET |  | Request starting HTTP/2 GET https://localhost:5001/swagger/favicon-32x32.png  
+2019-11-13 14:26:27.4219 | Development | INFO | ::1 | 0 | GET |  | Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+2019-11-13 14:26:27.4219 | Development | INFO | ::1 | 0 | GET |  | Request finished in 2.1553ms 200 image/png
+2019-11-13 14:26:27.7909 | Development | INFO | ::1 | 0 | GET |  | Request finished in 369.1511ms 200 application/json; charset=utf-8
+2019-11-13 14:26:33.2490 | Development | INFO | ::1 | 0 | POST |  | Request starting HTTP/2 POST https://localhost:5001/api/Authentication/test_Request application/json 41
+2019-11-13 14:26:33.2490 | Development | INFO | ::1 | 0 | POST | RequestToken | CORS policy execution successful.
+2019-11-13 14:26:33.2490 | Development | INFO | ::1 | 0 | POST | RequestToken | Executing endpoint 'API_Base.Controllers.AuthenticationController.RequestToken (API_Base)'
+2019-11-13 14:26:33.2777 | Development | INFO | ::1 | 0 | POST | RequestToken | Route matched with {action = "RequestToken", controller = "Authentication"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult RequestToken(API_Base.Core.Models.TokenRequest) on controller API_Base.Controllers.AuthenticationController (API_Base).
+2019-11-13 14:26:33.3069 | Development | INFO | ::1 | 0 | POST | RequestToken | Executed action API_Base.Controllers.AuthenticationController.RequestToken (API_Base) in 20.6045ms
+2019-11-13 14:26:33.3069 | Development | INFO | ::1 | 0 | POST | RequestToken | Executed endpoint 'API_Base.Controllers.AuthenticationController.RequestToken (API_Base)'
+2019-11-13 14:26:33.3214 | Development | ERROR | ::1 | 0 | POST | RequestToken | Connection id "0HLR8DTGCI7IA", Request id "0HLR8DTGCI7IA:00000009": An unhandled exception was thrown by the application.
+2019-11-13 14:26:33.3214 | Development | INFO | ::1 | 0 | POST | RequestToken | Request finished in 73.6083ms 500 
+2019-11-13 14:27:23.9062 | Development | INFO |  |  |  |  | User profile is available. Using 'C:\Users\luhero04\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2019-11-13 14:27:24.2395 | Development | INFO | ::1 | 0 | GET |  | Request starting HTTP/2 GET https://localhost:5001/  
+2019-11-13 14:27:35.9041 | Development | INFO | ::1 | 0 | POST |  | Request starting HTTP/2 POST https://localhost:5001/api/Authentication/test_Request application/json 41
+2019-11-13 14:27:38.2165 | Development | INFO | ::1 | 0 | POST | RequestToken | CORS policy execution successful.
+2019-11-13 14:27:38.2327 | Development | INFO | ::1 | 0 | POST | RequestToken | Executing endpoint 'API_Base.Controllers.AuthenticationController.RequestToken (API_Base)'
+2019-11-13 14:27:38.2327 | Development | INFO | ::1 | 0 | GET |  | Request finished in 13996.3351ms 0 
+2019-11-13 14:27:38.2608 | Development | INFO | ::1 | 0 | POST | RequestToken | Route matched with {action = "RequestToken", controller = "Authentication"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult RequestToken(API_Base.Core.Models.TokenRequest) on controller API_Base.Controllers.AuthenticationController (API_Base).
+2019-11-13 14:28:18.8007 | Development | INFO | ::1 | 0 | POST | RequestToken | Executed action API_Base.Controllers.AuthenticationController.RequestToken (API_Base) in 40524.9325ms
+2019-11-13 14:28:18.8073 | Development | INFO | ::1 | 0 | POST | RequestToken | Executed endpoint 'API_Base.Controllers.AuthenticationController.RequestToken (API_Base)'
+2019-11-13 14:28:18.8073 | Development | ERROR | ::1 | 0 | POST | RequestToken | Connection id "0HLR8DU1CV1J6", Request id "0HLR8DU1CV1J6:00000003": An unhandled exception was thrown by the application.
+2019-11-13 14:28:18.8210 | Development | INFO | ::1 | 0 | POST | RequestToken | Request finished in 42937.02ms 500 
+2019-11-13 14:34:26.5458 | Development | INFO |  |  |  |  | User profile is available. Using 'C:\Users\luhero04\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2019-11-13 14:34:26.8552 | Development | INFO | ::1 | 0 | GET |  | Request starting HTTP/2 GET https://localhost:5001/  
+2019-11-13 14:34:31.9914 | Development | INFO | ::1 | 0 | GET |  | Request finished in 5136.2781ms 0 
+2019-11-13 14:34:37.5682 | Development | INFO | 127.0.0.1 | 0 | POST |  | Request starting HTTP/1.1 POST https://localhost:5001/api/Authentication/test_Request application/json 49
+2019-11-13 14:34:37.5733 | Development | INFO | 127.0.0.1 | 0 | POST | RequestToken | Executing endpoint 'API_Base.Controllers.AuthenticationController.RequestToken (API_Base)'
+2019-11-13 14:34:37.6048 | Development | INFO | 127.0.0.1 | 0 | POST | RequestToken | Route matched with {action = "RequestToken", controller = "Authentication"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult RequestToken(API_Base.Core.Models.TokenRequest) on controller API_Base.Controllers.AuthenticationController (API_Base).
+2019-11-13 14:34:42.0235 | Development | INFO | 127.0.0.1 | 0 | POST | RequestToken | Executed action API_Base.Controllers.AuthenticationController.RequestToken (API_Base) in 4413.8332ms
+2019-11-13 14:34:42.0235 | Development | INFO | 127.0.0.1 | 0 | POST | RequestToken | Executed endpoint 'API_Base.Controllers.AuthenticationController.RequestToken (API_Base)'
+2019-11-13 14:34:42.0686 | Development | ERROR | 127.0.0.1 | 0 | POST | RequestToken | Connection id "0HLR8E1VBCFG7", Request id "0HLR8E1VBCFG7:00000001": An unhandled exception was thrown by the application.
+2019-11-13 14:34:42.0724 | Development | INFO | 127.0.0.1 | 0 | POST | RequestToken | Request finished in 4505.0822ms 500 
+2019-11-13 14:41:52.9159 | Development | INFO |  |  |  |  | User profile is available. Using 'C:\Users\luhero04\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2019-11-13 14:41:53.2142 | Development | INFO | ::1 | 0 | GET |  | Request starting HTTP/2 GET https://localhost:5001/  
+2019-11-13 14:41:53.2814 | Development | INFO | ::1 | 0 | GET |  | Request finished in 66.8078ms 404 
+2019-11-13 14:41:58.1675 | Development | INFO | 127.0.0.1 | 0 | POST |  | Request starting HTTP/1.1 POST https://localhost:5001/api/Authentication/test_Request application/json 49
+2019-11-13 14:41:58.1675 | Development | INFO | 127.0.0.1 | 0 | POST | RequestToken | Executing endpoint 'API_Base.Controllers.AuthenticationController.RequestToken (API_Base)'
+2019-11-13 14:41:58.1966 | Development | INFO | 127.0.0.1 | 0 | POST | RequestToken | Route matched with {action = "RequestToken", controller = "Authentication"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult RequestToken(API_Base.Core.Models.TokenRequest) on controller API_Base.Controllers.AuthenticationController (API_Base).
+2019-11-13 14:44:06.6025 | Development | INFO | 127.0.0.1 | 0 | POST | RequestToken | Executed action API_Base.Controllers.AuthenticationController.RequestToken (API_Base) in 128392.2833ms
+2019-11-13 14:44:06.6025 | Development | INFO | 127.0.0.1 | 0 | POST | RequestToken | Executed endpoint 'API_Base.Controllers.AuthenticationController.RequestToken (API_Base)'
+2019-11-13 14:44:06.6235 | Development | ERROR | 127.0.0.1 | 0 | POST | RequestToken | Connection id "0HLR8E64C6MM6", Request id "0HLR8E64C6MM6:00000001": An unhandled exception was thrown by the application.
+2019-11-13 14:44:06.6235 | Development | INFO | 127.0.0.1 | 0 | POST | RequestToken | Request finished in 128461.1618ms 500 
+2019-11-13 14:54:19.3778 | Development | INFO |  |  |  |  | User profile is available. Using 'C:\Users\luhero04\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2019-11-13 14:54:19.6843 | Development | INFO | ::1 | 0 | GET |  | Request starting HTTP/2 GET https://localhost:5001/  
+2019-11-13 14:54:19.7663 | Development | INFO | ::1 | 0 | GET |  | Request finished in 82.6845ms 404 
+2019-11-13 14:54:25.1775 | Development | INFO | 127.0.0.1 | 0 | POST |  | Request starting HTTP/1.1 POST https://localhost:5001/api/Authentication/test_Request application/json 49
+2019-11-13 14:54:25.1828 | Development | INFO | 127.0.0.1 | 0 | POST | RequestToken | Executing endpoint 'API_Base.Controllers.AuthenticationController.RequestToken (API_Base)'
+2019-11-13 14:54:25.2144 | Development | INFO | 127.0.0.1 | 0 | POST | RequestToken | Route matched with {action = "RequestToken", controller = "Authentication"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult RequestToken(API_Base.Core.Models.TokenRequest) on controller API_Base.Controllers.AuthenticationController (API_Base).
+2019-11-13 14:55:01.6238 | Development | INFO | 127.0.0.1 | 0 | POST | RequestToken | Executed action API_Base.Controllers.AuthenticationController.RequestToken (API_Base) in 36404.1126ms
+2019-11-13 14:55:01.6238 | Development | INFO | 127.0.0.1 | 0 | POST | RequestToken | Executed endpoint 'API_Base.Controllers.AuthenticationController.RequestToken (API_Base)'
+2019-11-13 14:55:01.6593 | Development | ERROR | 127.0.0.1 | 0 | POST | RequestToken | Connection id "0HLR8ED2R333G", Request id "0HLR8ED2R333G:00000001": An unhandled exception was thrown by the application.
+2019-11-13 14:55:01.6675 | Development | INFO | 127.0.0.1 | 0 | POST | RequestToken | Request finished in 36493.1827ms 500 
+2019-11-13 14:55:46.0532 | Development | INFO |  |  |  |  | User profile is available. Using 'C:\Users\luhero04\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2019-11-13 14:55:46.3711 | Development | INFO | ::1 | 0 | GET |  | Request starting HTTP/2 GET https://localhost:5001/  
+2019-11-13 14:55:46.4503 | Development | INFO | ::1 | 0 | GET |  | Request finished in 79.3595ms 404 
+2019-11-13 14:56:23.2060 | Development | INFO | 127.0.0.1 | 0 | POST |  | Request starting HTTP/1.1 POST https://localhost:5001/api/Authentication/test_Request application/json 49
+2019-11-13 14:56:23.2141 | Development | INFO | 127.0.0.1 | 0 | POST | RequestToken | Executing endpoint 'API_Base.Controllers.AuthenticationController.RequestToken (API_Base)'
+2019-11-13 14:56:23.2444 | Development | INFO | 127.0.0.1 | 0 | POST | RequestToken | Route matched with {action = "RequestToken", controller = "Authentication"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult RequestToken(API_Base.Core.Models.TokenRequest) on controller API_Base.Controllers.AuthenticationController (API_Base).
+2019-11-13 14:56:27.1354 | Development | INFO | 127.0.0.1 | 0 | POST | RequestToken | Executing ObjectResult, writing value of type 'System.String'.
+2019-11-13 14:56:27.1480 | Development | INFO | 127.0.0.1 | 0 | POST | RequestToken | Executed action API_Base.Controllers.AuthenticationController.RequestToken (API_Base) in 3898.4198ms
+2019-11-13 14:56:27.1480 | Development | INFO | 127.0.0.1 | 0 | POST | RequestToken | Executed endpoint 'API_Base.Controllers.AuthenticationController.RequestToken (API_Base)'
+2019-11-13 14:56:27.1480 | Development | INFO | 127.0.0.1 | 0 | POST | RequestToken | Request finished in 3947.032ms 200 text/plain; charset=utf-8
+2019-11-13 14:57:33.0513 | Development | INFO | 127.0.0.1 | 0 | GET |  | Request starting HTTP/1.1 GET https://localhost:5001/api/Authentication/test_Token application/json 
+2019-11-13 14:57:33.1028 | Development | INFO | 127.0.0.1 | 0 | GET | PruebaAuthorization | Successfully validated the token.
+2019-11-13 14:57:33.1028 | Development | INFO | 127.0.0.1 | 1 | GET | PruebaAuthorization | Authorization was successful.
+2019-11-13 14:57:33.1028 | Development | INFO | 127.0.0.1 | 1 | GET | PruebaAuthorization | Executing endpoint 'API_Base.Controllers.AuthenticationController.PruebaAuthorization (API_Base)'
+2019-11-13 14:57:33.1188 | Development | INFO | 127.0.0.1 | 1 | GET | PruebaAuthorization | Route matched with {action = "PruebaAuthorization", controller = "Authentication"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult PruebaAuthorization() on controller API_Base.Controllers.AuthenticationController (API_Base).
+2019-11-13 14:57:37.3276 | Development | INFO | 127.0.0.1 | 1 | GET | PruebaAuthorization | Executing ObjectResult, writing value of type 'System.String'.
+2019-11-13 14:57:37.3276 | Development | INFO | 127.0.0.1 | 1 | GET | PruebaAuthorization | Executed action API_Base.Controllers.AuthenticationController.PruebaAuthorization (API_Base) in 4209.3423ms
+2019-11-13 14:57:37.3276 | Development | INFO | 127.0.0.1 | 1 | GET | PruebaAuthorization | Executed endpoint 'API_Base.Controllers.AuthenticationController.PruebaAuthorization (API_Base)'
+2019-11-13 14:57:37.3364 | Development | INFO | 127.0.0.1 | 1 | GET | PruebaAuthorization | Request finished in 4286.0326ms 200 text/plain; charset=utf-8
+2019-11-13 14:58:05.1528 | Development | INFO |  |  |  |  | User profile is available. Using 'C:\Users\luhero04\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2019-11-13 14:58:05.4704 | Development | INFO | ::1 | 0 | GET |  | Request starting HTTP/2 GET https://localhost:5001/  
+2019-11-13 14:58:05.5519 | Development | INFO | ::1 | 0 | GET |  | Request finished in 82.4413ms 404 
+2019-11-13 14:58:22.3278 | Development | INFO | 127.0.0.1 | 0 | POST |  | Request starting HTTP/1.1 POST https://localhost:5001/api/Authentication/test_Request application/json 49
+2019-11-13 14:58:22.3278 | Development | INFO | 127.0.0.1 | 0 | POST | RequestToken | Executing endpoint 'API_Base.Controllers.AuthenticationController.RequestToken (API_Base)'
+2019-11-13 14:58:22.3577 | Development | INFO | 127.0.0.1 | 0 | POST | RequestToken | Route matched with {action = "RequestToken", controller = "Authentication"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult RequestToken(API_Base.Core.Models.TokenRequest) on controller API_Base.Controllers.AuthenticationController (API_Base).
+2019-11-13 14:58:25.2676 | Development | INFO | 127.0.0.1 | 0 | POST | RequestToken | Executed action API_Base.Controllers.AuthenticationController.RequestToken (API_Base) in 2895.3223ms
+2019-11-13 14:58:25.2676 | Development | INFO | 127.0.0.1 | 0 | POST | RequestToken | Executed endpoint 'API_Base.Controllers.AuthenticationController.RequestToken (API_Base)'
+2019-11-13 14:58:25.3046 | Development | ERROR | 127.0.0.1 | 0 | POST | RequestToken | Connection id "0HLR8EF64ADI8", Request id "0HLR8EF64ADI8:00000001": An unhandled exception was thrown by the application.
+2019-11-13 14:58:25.3046 | Development | INFO | 127.0.0.1 | 0 | POST | RequestToken | Request finished in 2980.9961ms 500 
+2019-11-13 14:58:41.1826 | Development | INFO | 127.0.0.1 | 0 | POST |  | Request starting HTTP/1.1 POST https://localhost:5001/api/Authentication/test_Request application/json 49
+2019-11-13 14:58:41.1826 | Development | INFO | 127.0.0.1 | 0 | POST | RequestToken | Executing endpoint 'API_Base.Controllers.AuthenticationController.RequestToken (API_Base)'
+2019-11-13 14:58:41.1826 | Development | INFO | 127.0.0.1 | 0 | POST | RequestToken | Route matched with {action = "RequestToken", controller = "Authentication"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult RequestToken(API_Base.Core.Models.TokenRequest) on controller API_Base.Controllers.AuthenticationController (API_Base).
+2019-11-13 14:58:45.8567 | Development | INFO | 127.0.0.1 | 0 | POST | RequestToken | Executed action API_Base.Controllers.AuthenticationController.RequestToken (API_Base) in 4663.8095ms
+2019-11-13 14:58:45.8567 | Development | INFO | 127.0.0.1 | 0 | POST | RequestToken | Executed endpoint 'API_Base.Controllers.AuthenticationController.RequestToken (API_Base)'
+2019-11-13 14:58:45.8567 | Development | ERROR | 127.0.0.1 | 0 | POST | RequestToken | Connection id "0HLR8EF64ADI9", Request id "0HLR8EF64ADI9:00000001": An unhandled exception was thrown by the application.
+2019-11-13 14:58:45.8679 | Development | INFO | 127.0.0.1 | 0 | POST | RequestToken | Request finished in 4685.5633ms 500 
+2019-11-13 14:59:05.6202 | Development | INFO | 127.0.0.1 | 0 | POST |  | Request starting HTTP/1.1 POST https://localhost:5001/api/Authentication/test_Request application/json 49
+2019-11-13 14:59:05.6202 | Development | INFO | 127.0.0.1 | 0 | POST | RequestToken | Executing endpoint 'API_Base.Controllers.AuthenticationController.RequestToken (API_Base)'
+2019-11-13 14:59:05.6202 | Development | INFO | 127.0.0.1 | 0 | POST | RequestToken | Route matched with {action = "RequestToken", controller = "Authentication"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult RequestToken(API_Base.Core.Models.TokenRequest) on controller API_Base.Controllers.AuthenticationController (API_Base).
+2019-11-13 14:59:11.3884 | Development | INFO | 127.0.0.1 | 0 | POST | RequestToken | Executed action API_Base.Controllers.AuthenticationController.RequestToken (API_Base) in 5756.2354ms
+2019-11-13 14:59:11.3884 | Development | INFO | 127.0.0.1 | 0 | POST | RequestToken | Executed endpoint 'API_Base.Controllers.AuthenticationController.RequestToken (API_Base)'
+2019-11-13 14:59:11.3992 | Development | ERROR | 127.0.0.1 | 0 | POST | RequestToken | Connection id "0HLR8EF64ADIA", Request id "0HLR8EF64ADIA:00000001": An unhandled exception was thrown by the application.
+2019-11-13 14:59:11.3992 | Development | INFO | 127.0.0.1 | 0 | POST | RequestToken | Request finished in 5785.1303ms 500 
+2019-11-13 14:59:17.7854 | Development | INFO |  |  |  |  | User profile is available. Using 'C:\Users\luhero04\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2019-11-13 14:59:18.0994 | Development | INFO | ::1 | 0 | GET |  | Request starting HTTP/2 GET https://localhost:5001/  
+2019-11-13 14:59:18.1767 | Development | INFO | ::1 | 0 | GET |  | Request finished in 77.4586ms 404 
+2019-11-13 14:59:24.9745 | Development | INFO | 127.0.0.1 | 0 | POST |  | Request starting HTTP/1.1 POST https://localhost:5001/api/Authentication/test_Request application/json 49
+2019-11-13 14:59:24.9804 | Development | INFO | 127.0.0.1 | 0 | POST | RequestToken | Executing endpoint 'API_Base.Controllers.AuthenticationController.RequestToken (API_Base)'
+2019-11-13 14:59:25.0137 | Development | INFO | 127.0.0.1 | 0 | POST | RequestToken | Route matched with {action = "RequestToken", controller = "Authentication"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult RequestToken(API_Base.Core.Models.TokenRequest) on controller API_Base.Controllers.AuthenticationController (API_Base).
+2019-11-13 14:59:25.1319 | Development | INFO | 127.0.0.1 | 0 | POST | RequestToken | Executing ObjectResult, writing value of type 'System.String'.
+2019-11-13 14:59:25.1319 | Development | INFO | 127.0.0.1 | 0 | POST | RequestToken | Executed action API_Base.Controllers.AuthenticationController.RequestToken (API_Base) in 125.1528ms
+2019-11-13 14:59:25.1319 | Development | INFO | 127.0.0.1 | 0 | POST | RequestToken | Executed endpoint 'API_Base.Controllers.AuthenticationController.RequestToken (API_Base)'
+2019-11-13 14:59:25.1481 | Development | INFO | 127.0.0.1 | 0 | POST | RequestToken | Request finished in 174.4617ms 200 text/plain; charset=utf-8
+2019-11-13 14:59:40.2260 | Development | INFO |  |  |  |  | User profile is available. Using 'C:\Users\luhero04\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2019-11-13 14:59:40.5265 | Development | INFO | ::1 | 0 | GET |  | Request starting HTTP/2 GET https://localhost:5001/  
+2019-11-13 14:59:40.6034 | Development | INFO | ::1 | 0 | GET |  | Request finished in 77.8631ms 404 
+2019-11-13 14:59:45.4026 | Development | INFO | 127.0.0.1 | 0 | POST |  | Request starting HTTP/1.1 POST https://localhost:5001/api/Authentication/test_Request application/json 49
+2019-11-13 14:59:45.4026 | Development | INFO | 127.0.0.1 | 0 | POST | RequestToken | Executing endpoint 'API_Base.Controllers.AuthenticationController.RequestToken (API_Base)'
+2019-11-13 14:59:45.4317 | Development | INFO | 127.0.0.1 | 0 | POST | RequestToken | Route matched with {action = "RequestToken", controller = "Authentication"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult RequestToken(API_Base.Core.Models.TokenRequest) on controller API_Base.Controllers.AuthenticationController (API_Base).
+2019-11-13 14:59:45.5705 | Development | INFO | 127.0.0.1 | 0 | POST | RequestToken | Executing ObjectResult, writing value of type 'System.String'.
+2019-11-13 14:59:45.5705 | Development | INFO | 127.0.0.1 | 0 | POST | RequestToken | Executed action API_Base.Controllers.AuthenticationController.RequestToken (API_Base) in 131.9259ms
+2019-11-13 14:59:45.5705 | Development | INFO | 127.0.0.1 | 0 | POST | RequestToken | Executed endpoint 'API_Base.Controllers.AuthenticationController.RequestToken (API_Base)'
+2019-11-13 14:59:45.5705 | Development | INFO | 127.0.0.1 | 0 | POST | RequestToken | Request finished in 180.5613ms 200 text/plain; charset=utf-8
+2019-11-13 14:59:56.4968 | Development | INFO | 127.0.0.1 | 0 | GET |  | Request starting HTTP/1.1 GET https://localhost:5001/api/Authentication/test_Token application/json 
+2019-11-13 14:59:56.5458 | Development | INFO | 127.0.0.1 | 0 | GET | PruebaAuthorization | Successfully validated the token.
+2019-11-13 14:59:56.5458 | Development | INFO | 127.0.0.1 | 1 | GET | PruebaAuthorization | Authorization was successful.
+2019-11-13 14:59:56.5556 | Development | INFO | 127.0.0.1 | 1 | GET | PruebaAuthorization | Executing endpoint 'API_Base.Controllers.AuthenticationController.PruebaAuthorization (API_Base)'
+2019-11-13 14:59:56.5556 | Development | INFO | 127.0.0.1 | 1 | GET | PruebaAuthorization | Route matched with {action = "PruebaAuthorization", controller = "Authentication"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult PruebaAuthorization() on controller API_Base.Controllers.AuthenticationController (API_Base).
+2019-11-13 14:59:56.5556 | Development | INFO | 127.0.0.1 | 1 | GET | PruebaAuthorization | Executing ObjectResult, writing value of type 'System.String'.
+2019-11-13 14:59:56.5556 | Development | INFO | 127.0.0.1 | 1 | GET | PruebaAuthorization | Executed action API_Base.Controllers.AuthenticationController.PruebaAuthorization (API_Base) in 2.5726ms
+2019-11-13 14:59:56.5556 | Development | INFO | 127.0.0.1 | 1 | GET | PruebaAuthorization | Executed endpoint 'API_Base.Controllers.AuthenticationController.PruebaAuthorization (API_Base)'
+2019-11-13 14:59:56.5556 | Development | INFO | 127.0.0.1 | 1 | GET | PruebaAuthorization | Request finished in 71.4238ms 200 text/plain; charset=utf-8
+2019-11-13 15:00:00.9623 | Development | INFO | ::1 | 0 | GET |  | Request starting HTTP/2 GET https://localhost:5001/swagger/index.html  
+2019-11-13 15:00:00.9891 | Development | INFO | ::1 | 0 | GET |  | Request finished in 27.3449ms 200 text/html; charset=utf-8
+2019-11-13 15:00:00.9998 | Development | INFO | ::1 | 0 | GET |  | Request starting HTTP/2 GET https://localhost:5001/swagger/swagger-ui.css  
+2019-11-13 15:00:01.0227 | Development | INFO | ::1 | 0 | GET |  | Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2019-11-13 15:00:01.0227 | Development | INFO | ::1 | 0 | GET |  | Request finished in 27.3829ms 200 text/css
+2019-11-13 15:00:01.1725 | Development | INFO | ::1 | 0 | GET |  | Request starting HTTP/2 GET https://localhost:5001/swagger/v1/swagger.json  
+2019-11-13 15:00:01.1725 | Development | INFO | ::1 | 0 | GET |  | Request starting HTTP/2 GET https://localhost:5001/swagger/favicon-32x32.png  
+2019-11-13 15:00:01.1817 | Development | INFO | ::1 | 0 | GET |  | Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+2019-11-13 15:00:01.1817 | Development | INFO | ::1 | 0 | GET |  | Request finished in 7.7031ms 200 image/png
+2019-11-13 15:00:01.5952 | Development | INFO | ::1 | 0 | GET |  | Request finished in 423.0944ms 200 application/json; charset=utf-8
+2019-11-13 15:00:04.2210 | Development | INFO | ::1 | 0 | POST |  | Request starting HTTP/2 POST https://localhost:5001/api/Authentication/test_Request application/json 41
+2019-11-13 15:00:04.2257 | Development | INFO | ::1 | 0 | POST | RequestToken | CORS policy execution successful.
+2019-11-13 15:00:04.2257 | Development | INFO | ::1 | 0 | POST | RequestToken | Executing endpoint 'API_Base.Controllers.AuthenticationController.RequestToken (API_Base)'
+2019-11-13 15:00:04.2257 | Development | INFO | ::1 | 0 | POST | RequestToken | Route matched with {action = "RequestToken", controller = "Authentication"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult RequestToken(API_Base.Core.Models.TokenRequest) on controller API_Base.Controllers.AuthenticationController (API_Base).
+2019-11-13 15:00:04.2257 | Development | INFO | ::1 | 0 | POST | RequestToken | Executing ObjectResult, writing value of type 'System.String'.
+2019-11-13 15:00:04.2419 | Development | INFO | ::1 | 0 | POST | RequestToken | Executed action API_Base.Controllers.AuthenticationController.RequestToken (API_Base) in 6.937ms
+2019-11-13 15:00:04.2419 | Development | INFO | ::1 | 0 | POST | RequestToken | Executed endpoint 'API_Base.Controllers.AuthenticationController.RequestToken (API_Base)'
+2019-11-13 15:00:04.2419 | Development | INFO | ::1 | 0 | POST | RequestToken | Request finished in 26.9123ms 200 text/plain; charset=utf-8
+2019-11-13 15:00:14.5404 | Development | INFO | ::1 | 0 | GET |  | Request starting HTTP/2 GET https://localhost:5001/api/Authentication/test_Token  
+2019-11-13 15:00:14.5404 | Development | INFO | ::1 | 0 | GET | PruebaAuthorization | Authorization failed.
+2019-11-13 15:00:14.5404 | Development | INFO | ::1 | 0 | GET | PruebaAuthorization | AuthenticationScheme: Bearer was challenged.
+2019-11-13 15:00:14.5550 | Development | INFO | ::1 | 0 | GET | PruebaAuthorization | Request finished in 14.7148ms 401 
+2019-11-13 15:02:48.3550 | Development | INFO | ::1 | 0 | GET |  | Request starting HTTP/2 GET https://localhost:5001/api/Authentication/test_Token  
+2019-11-13 15:02:48.3550 | Development | INFO | ::1 | 0 | GET | PruebaAuthorization | Successfully validated the token.
+2019-11-13 15:02:48.3670 | Development | INFO | ::1 | 1 | GET | PruebaAuthorization | Authorization was successful.
+2019-11-13 15:02:48.3670 | Development | INFO | ::1 | 1 | GET | PruebaAuthorization | Executing endpoint 'API_Base.Controllers.AuthenticationController.PruebaAuthorization (API_Base)'
+2019-11-13 15:02:48.3670 | Development | INFO | ::1 | 1 | GET | PruebaAuthorization | Route matched with {action = "PruebaAuthorization", controller = "Authentication"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult PruebaAuthorization() on controller API_Base.Controllers.AuthenticationController (API_Base).
+2019-11-13 15:02:48.3670 | Development | INFO | ::1 | 1 | GET | PruebaAuthorization | Executing ObjectResult, writing value of type 'System.String'.
+2019-11-13 15:02:48.3670 | Development | INFO | ::1 | 1 | GET | PruebaAuthorization | Executed action API_Base.Controllers.AuthenticationController.PruebaAuthorization (API_Base) in 4.1727ms
+2019-11-13 15:02:48.3826 | Development | INFO | ::1 | 1 | GET | PruebaAuthorization | Executed endpoint 'API_Base.Controllers.AuthenticationController.PruebaAuthorization (API_Base)'
+2019-11-13 15:02:48.3826 | Development | INFO | ::1 | 1 | GET | PruebaAuthorization | Request finished in 30.7232ms 200 text/plain; charset=utf-8
+2019-11-13 15:03:51.5407 | Development | INFO |  |  |  |  | User profile is available. Using 'C:\Users\luhero04\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.

@@ -3,9 +3,14 @@ using API_Base.Core.Services;
 using LoggerService;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
+using NSwag.Annotations;
 
 namespace API_Base.Controllers
 {
+    // [SwaggerTag("Login",
+    //     Description = "Authentication for API request.",
+    //     DocumentationDescription = "Documentación externa")]
+        //DocumentationUrl = "http://rafaelacosta.net/login-doc.pdf")]
     [Route("api/[controller]")]
     [ApiController]
     public class AuthenticationController : ControllerBase
@@ -25,24 +30,21 @@ namespace API_Base.Controllers
         /// <returns>The list of Employees.</returns>
         // GET: api/Employee                
         [AllowAnonymous]
-        [HttpPost, Route("test_Request")]
+        [HttpPost("test_Request")]
         public IActionResult RequestToken([FromBody] TokenRequest request)
         {
             if (!ModelState.IsValid)
             {
                 return BadRequest(ModelState);
             }
-            _logger.LogInfo("ModelState valid");
             string token;
             if (_authService.IsAuthenticated(request, out token))
             {
-                _logger.LogDebug("token: "+token);
                 return Ok(token);
             }
 
             return BadRequest("Invalid Request");
         }
-
         [Authorize]
         [HttpGet("test_Token")]
         public IActionResult PruebaAuthorization()

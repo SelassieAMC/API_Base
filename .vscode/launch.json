@@ -10,7 +10,7 @@
             "request": "launch",
             "preLaunchTask": "build",
             // If you have changed target frameworks, make sure to update the program path.
-            "program": "${workspaceFolder}/API_Base/bin/Debug/netcoreapp2.2/API_Base.dll",
+            "program": "${workspaceFolder}/API_Base/bin/Debug/netcoreapp3.1/API_Base.dll",
             "args": [],
             "cwd": "${workspaceFolder}/API_Base",
             "stopAtEntry": false,

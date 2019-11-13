@@ -1,3 +1,5 @@
+using System;
+
 namespace LoggerService
 {
     public interface ILoggerManager

@@ -1,0 +1,12 @@
+###
+POST https://localhost:5001/api/Authentication/test_Request
+Content-Type: application/json
+
+{
+    "username":"asd",
+    "password":"asd"
+}
+###
+GET https://localhost:5001/api/Authentication/test_Token
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9uYW1lIjoiYXNkIiwiZXhwIjoxNTczNjc1NTg2LCJpc3MiOiJhdXRvZmluYW5jaWVyYS5jb20uY28iLCJhdWQiOiJBdXRvQXVkaWVuY2UifQ.7eyESBMjCLFASYQOy6jlrwxezmk4bKlqXiY25fh3IJM

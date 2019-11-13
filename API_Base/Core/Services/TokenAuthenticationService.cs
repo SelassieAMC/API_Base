@@ -31,7 +31,7 @@ namespace API_Base.Core.Services
             {
                 new Claim(ClaimTypes.Name, request.Username)
             };
-            var key = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(_tokenManagement.Value.Secret));
+            var key = new SymmetricSecurityKey(Encoding.ASCII.GetBytes(_tokenManagement.Value.Secret));
             var credentials = new SigningCredentials(key, SecurityAlgorithms.HmacSha256);
 
             var jwtToken = new JwtSecurityToken(
@@ -43,37 +43,6 @@ namespace API_Base.Core.Services
             );
             token = new JwtSecurityTokenHandler().WriteToken(jwtToken);
             return true;
-        }
-        
-        public JwtSecurityToken ValidateToken(string token){
-            if(token == "" || token == null)
-                return null;
-
-            SecurityToken validatedToken;
-            TokenValidationParameters validationParameters = new TokenValidationParameters(){
-                ValidateIssuerSigningKey = true,
-                IssuerSigningKey =  new SymmetricSecurityKey(Encoding.ASCII.GetBytes(_tokenManagement.Value.Secret)),
-                ValidIssuer = _tokenManagement.Value.Issuer,
-                ValidAudience = _tokenManagement.Value.Audience,
-                ValidateIssuer = false,
-                ValidateAudience = false
-            };
-            try
-            {
-                ClaimsPrincipal claim = new JwtSecurityTokenHandler()
-                    .ValidateToken(token, validationParameters, out validatedToken); 
-                
-                return (JwtSecurityToken)validatedToken;
-                    
-            }
-            catch (SecurityTokenValidationException stvex)
-            {
-                throw new Exception($"Token failed validation: {stvex.Message}");
-            }            
-            catch (ArgumentException argex)
-            {
-                throw new Exception($"Token was invalid: {argex.Message}");
-            }
         }
     }
 }

@@ -1,9 +1,0 @@
-C:\Users\luhero04\Documents\Projects\BASE\LoggerService\bin\Debug\netcoreapp2.2\LoggerService.deps.json
-C:\Users\luhero04\Documents\Projects\BASE\LoggerService\bin\Debug\netcoreapp2.2\LoggerService.dll
-C:\Users\luhero04\Documents\Projects\BASE\LoggerService\bin\Debug\netcoreapp2.2\LoggerService.pdb
-C:\Users\luhero04\Documents\Projects\BASE\LoggerService\obj\Debug\netcoreapp2.2\LoggerService.csprojAssemblyReference.cache
-C:\Users\luhero04\Documents\Projects\BASE\LoggerService\obj\Debug\netcoreapp2.2\LoggerService.csproj.CoreCompileInputs.cache
-C:\Users\luhero04\Documents\Projects\BASE\LoggerService\obj\Debug\netcoreapp2.2\LoggerService.AssemblyInfoInputs.cache
-C:\Users\luhero04\Documents\Projects\BASE\LoggerService\obj\Debug\netcoreapp2.2\LoggerService.AssemblyInfo.cs
-C:\Users\luhero04\Documents\Projects\BASE\LoggerService\obj\Debug\netcoreapp2.2\LoggerService.dll
-C:\Users\luhero04\Documents\Projects\BASE\LoggerService\obj\Debug\netcoreapp2.2\LoggerService.pdb

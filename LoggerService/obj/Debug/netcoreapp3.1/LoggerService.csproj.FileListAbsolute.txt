@@ -1,0 +1,8 @@
+C:\Users\luhero04\Documents\Projects\BASE\LoggerService\obj\Debug\netcoreapp3.1\LoggerService.csprojAssemblyReference.cache
+C:\Users\luhero04\Documents\Projects\BASE\LoggerService\obj\Debug\netcoreapp3.1\LoggerService.AssemblyInfoInputs.cache
+C:\Users\luhero04\Documents\Projects\BASE\LoggerService\obj\Debug\netcoreapp3.1\LoggerService.AssemblyInfo.cs
+C:\Users\luhero04\Documents\Projects\BASE\LoggerService\bin\Debug\netcoreapp3.1\LoggerService.deps.json
+C:\Users\luhero04\Documents\Projects\BASE\LoggerService\bin\Debug\netcoreapp3.1\LoggerService.dll
+C:\Users\luhero04\Documents\Projects\BASE\LoggerService\bin\Debug\netcoreapp3.1\LoggerService.pdb
+C:\Users\luhero04\Documents\Projects\BASE\LoggerService\obj\Debug\netcoreapp3.1\LoggerService.dll
+C:\Users\luhero04\Documents\Projects\BASE\LoggerService\obj\Debug\netcoreapp3.1\LoggerService.pdb

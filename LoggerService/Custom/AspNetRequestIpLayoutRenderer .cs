@@ -1,8 +1,8 @@
-using System.Text;
 using Microsoft.AspNetCore.Http;
 using NLog;
 using NLog.LayoutRenderers;
-using NLog.Web.LayoutRenderers;
+using System;
+using System.Text;
 
 namespace LoggerService.Custom
 {
